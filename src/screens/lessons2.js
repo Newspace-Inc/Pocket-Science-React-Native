@@ -7,7 +7,7 @@ import {Path as SvgPath} from 'react-native-svg';
 import {Text as SvgText} from 'react-native-svg';
 import {Image as SvgImage} from 'react-native-svg';
 
-export default class HomeScreen1 extends Component {
+export default class Lesson2 extends Component {
 
   constructor(props) {
       super(props);
@@ -67,113 +67,101 @@ export default class HomeScreen1 extends Component {
   render() {
     
     return (
-    <ScrollView data-layer="e9c660b3-4f22-40ac-bacb-e4dca1ed5d19" style={styles.homeScreen1}>
-        <View data-layer="951fbf0a-8fea-4dd9-b35a-4476bd21c9ae" style={styles.homeScreen1_rectangle71}></View>
-        <View data-layer="b0f42dd9-8ef5-45fc-93e9-69bb33f8f6ae" style={styles.homeScreen1_rectangle70}></View>
-        <View data-layer="d66fd24c-04f6-4017-9305-b093e1cdf1c4" style={styles.homeScreen1_tabBar}>
-            <View data-layer="ea4312a1-8122-47ff-8fed-4a3a54a65d50" style={styles.homeScreen1_tabBar_background6cb8d5d2}>
-                <ReactImage data-layer="00bb7df8-257f-42fd-97ea-87e284e693fe" source={require('./assets/background.png')} style={styles.homeScreen1_tabBar_background6cb8d5d2_background} />
+    <ScrollView data-layer="dde45ae6-d9ca-4694-99fd-c3f1580972f6" style={styles.lesson2}>
+        <View data-layer="3d09c46c-f24a-4196-9c74-f54213a8b439" style={styles.lesson2_tabBar}>
+            <View data-layer="121f73ac-2060-43c4-a246-aee8118c8383" style={styles.lesson2_tabBar_background9432cc70}>
+                <ReactImage data-layer="e626daf8-64bb-4f17-831d-dfb5bb7912c8" source={require('./assets/background.png')} style={styles.lesson2_tabBar_background9432cc70_background} />
             </View>
-            <View data-layer="bf316095-ec34-49e9-bd61-216d7d68114c" style={styles.homeScreen1_tabBar_tab4}>
-                <View data-layer="196c0cfc-7b1f-44ff-a8c7-402ef4f8910a" style={styles.homeScreen1_tabBar_tab4_frameb95d7fa9}></View>
-                <View data-layer="b3d1cb09-6da8-412b-a017-b0dea1eb82d8" style={styles.homeScreen1_tabBar_tab4_group562c75e0}>
-                    <View data-layer="1764e032-c122-4503-be81-ae8b8260a42b" style={styles.homeScreen1_tabBar_tab4_group562c75e0_glyph61f91091}>
-                        <View data-layer="b1c8c224-dcfd-493a-8b50-31ff61a936b7" style={styles.homeScreen1_tabBar_tab4_group562c75e0_glyph61f91091_frame533f385c}></View>
-                        <View style={styles.homeScreen1_tabBar_tab4_group562c75e0_glyph61f91091_symbol1df825c2}><Text data-layer="bf3a2900-2763-478e-96a0-e0ec7c91ae7a" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
+            <View data-layer="7911dea1-85b2-466b-a1c7-ae3cfd18cf08" style={styles.lesson2_tabBar_tab4}>
+                <View data-layer="efd40b1e-f4b7-4d1d-af6a-942c7445ed6a" style={styles.lesson2_tabBar_tab4_frame962c43e5}></View>
+                <View data-layer="91e09ac5-b54d-42b2-a0c0-901dffab0c9d" style={styles.lesson2_tabBar_tab4_groupfeb8b4c6}>
+                    <View data-layer="d7726b94-4efd-4c7e-8e86-97109597a5b3" style={styles.lesson2_tabBar_tab4_groupfeb8b4c6_glyph0b6e58a9}>
+                        <View data-layer="5d68ac8c-4d19-4576-bd4a-5a0e8376826c" style={styles.lesson2_tabBar_tab4_groupfeb8b4c6_glyph0b6e58a9_frame38a4f438}></View>
+                        <View style={styles.lesson2_tabBar_tab4_groupfeb8b4c6_glyph0b6e58a9_symbol8390084a}><Text data-layer="3018f11f-b412-4fff-93ba-69d725d36215" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
                     </View>
-                    <Text data-layer="897c0a02-13a2-4eda-9c07-52be1d0a390b" style={styles.homeScreen1_tabBar_tab4_group562c75e0_settings}>Settings</Text>
+                    <Text data-layer="d0379c2d-9b7d-4024-8491-9eb501ae0627" style={styles.lesson2_tabBar_tab4_groupfeb8b4c6_settings}>Settings</Text>
                 </View>
             </View>
-            <View data-layer="48fff5b1-6200-4478-8290-26e5909b8bd1" style={styles.homeScreen1_tabBar_tab3}>
-                <View data-layer="5dd0ff9e-4889-476b-a506-97b4783fce2b" style={styles.homeScreen1_tabBar_tab3_framebff983c6}></View>
-                <View data-layer="69ca1a37-9cbe-435a-8c6b-53ceaa5f91d2" style={styles.homeScreen1_tabBar_tab3_group4de244dd}>
-                    <View data-layer="e5b24f8c-bc74-4da9-9d80-83147989ce84" style={styles.homeScreen1_tabBar_tab3_group4de244dd_glyph2e694a60}>
-                        <View data-layer="60525044-c268-4eb7-873d-0bba4e239e50" style={styles.homeScreen1_tabBar_tab3_group4de244dd_glyph2e694a60_framebb2d5bb6}></View>
-                        <View style={styles.homeScreen1_tabBar_tab3_group4de244dd_glyph2e694a60_symbol28154a89}><Text data-layer="89184f5e-c5e4-4e25-90b9-783df34296e4" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
+            <View data-layer="72c6ae67-c7e3-43d8-a13f-6390d5dd4f36" style={styles.lesson2_tabBar_tab3}>
+                <View data-layer="5ebcaf58-7879-4f34-8104-6221e5a606fd" style={styles.lesson2_tabBar_tab3_frame39c93d43}></View>
+                <View data-layer="ce183250-061d-473d-87f4-9c345699b03e" style={styles.lesson2_tabBar_tab3_groupef99ad88}>
+                    <View data-layer="295be365-5be4-471f-a762-6c9ef8e7475f" style={styles.lesson2_tabBar_tab3_groupef99ad88_glyph5cc1b8a8}>
+                        <View data-layer="75b3a6c4-9bdd-48a0-b2f7-2e1514bc893b" style={styles.lesson2_tabBar_tab3_groupef99ad88_glyph5cc1b8a8_frame04e6dd67}></View>
+                        <View style={styles.lesson2_tabBar_tab3_groupef99ad88_glyph5cc1b8a8_symbol22b94f78}><Text data-layer="7e5e257f-663f-4de0-9064-bd42abc4d1b2" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
                     </View>
-                    <Text data-layer="073eca9e-252e-42a8-9779-9c6f8ccf5fe0" style={styles.homeScreen1_tabBar_tab3_group4de244dd_favorites}>Favorites</Text>
+                    <Text data-layer="1bc779d4-f59b-4b80-ac2b-c0f782ad17f0" style={styles.lesson2_tabBar_tab3_groupef99ad88_favorites}>Favorites</Text>
                 </View>
             </View>
-            <View data-layer="42bf091c-bcd5-4770-a6e5-2188a7af6004" style={styles.homeScreen1_tabBar_tab2}>
-                <View data-layer="92070c17-0b6b-4703-8639-5173b7bf5474" style={styles.homeScreen1_tabBar_tab2_frame488744d2}></View>
-                <View data-layer="3a4f0013-a10f-4911-a0a9-46e407b35d40" style={styles.homeScreen1_tabBar_tab2_group98ae5150}>
-                    <View data-layer="e5c7796f-91db-4b7a-9fd5-dbded90569c2" style={styles.homeScreen1_tabBar_tab2_group98ae5150_glyph8d7153ca}>
-                        <View data-layer="54e28aca-7c6d-471e-8857-5f0350a940e1" style={styles.homeScreen1_tabBar_tab2_group98ae5150_glyph8d7153ca_frame3d571519}></View>
-                        <View style={styles.homeScreen1_tabBar_tab2_group98ae5150_glyph8d7153ca_symbol34253b94}><Text data-layer="78214490-a905-4ac5-9aa3-83580af46abe" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
+            <View data-layer="8963d1e8-28d8-495a-afb5-5886c0af4007" style={styles.lesson2_tabBar_tab2}>
+                <View data-layer="1910a092-596b-4e17-9781-d9b3e598cbb1" style={styles.lesson2_tabBar_tab2_frameff871c35}></View>
+                <View data-layer="b70ce45c-350a-4f36-b1e1-f811b1c4feb9" style={styles.lesson2_tabBar_tab2_group3d42d1ff}>
+                    <View data-layer="9ab55664-d1cd-4b67-be33-ed004b672002" style={styles.lesson2_tabBar_tab2_group3d42d1ff_glyph37c80a1f}>
+                        <View data-layer="9a61ce28-5cf2-4088-ad2a-eb6826cdf63a" style={styles.lesson2_tabBar_tab2_group3d42d1ff_glyph37c80a1f_framee5b7bf79}></View>
+                        <View style={styles.lesson2_tabBar_tab2_group3d42d1ff_glyph37c80a1f_symbolf8c86ef8}><Text data-layer="c4d048f5-d3d2-4925-812b-dc0ca9d9f892" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
                     </View>
-                    <Text data-layer="e38d09b6-5d43-4f95-a0da-b26528bc3d3a" style={styles.homeScreen1_tabBar_tab2_group98ae5150_awards}>Awards
+                    <Text data-layer="362d9d46-de13-48d7-b913-58411aaa55bf" style={styles.lesson2_tabBar_tab2_group3d42d1ff_awards}>Awards
 </Text>
                 </View>
             </View>
-            <View data-layer="9a9dc954-8d67-484e-b171-c47f8d7c1608" style={styles.homeScreen1_tabBar_tab1}>
-                <View data-layer="7e0c71fd-63a5-4fd4-82ac-e665d82d82c8" style={styles.homeScreen1_tabBar_tab1_frame9799da4c}></View>
-                <View data-layer="95addf56-7e47-4feb-9e70-d0cb08be6b78" style={styles.homeScreen1_tabBar_tab1_group}>
-                    <View data-layer="0e2abb80-2acc-488b-a9a2-5dd5cfc10962" style={styles.homeScreen1_tabBar_tab1_group_glyph}>
-                        <View data-layer="6e7ee6fd-51dd-4c6e-a240-12d3d55bb245" style={styles.homeScreen1_tabBar_tab1_group_glyph_framecc06b836}></View>
-                        <View style={styles.homeScreen1_tabBar_tab1_group_glyph_symbol}><Text data-layer="2bcb1d62-c6fc-42bc-9496-3147a71a95fa" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
+            <View data-layer="91d72d9b-47fb-4ba8-8938-2640ebc355ab" style={styles.lesson2_tabBar_tab1}>
+                <View data-layer="57abb937-27ca-4166-acd9-dc175532f2c9" style={styles.lesson2_tabBar_tab1_frame852096db}></View>
+                <View data-layer="8278ac6f-2f6b-4c6c-b67d-07be4d652c8a" style={styles.lesson2_tabBar_tab1_group}>
+                    <View data-layer="fa89253e-b85d-4716-ad64-b2f1e01f7811" style={styles.lesson2_tabBar_tab1_group_glyph}>
+                        <View data-layer="07f22210-2435-4ed3-8c73-752e134e3263" style={styles.lesson2_tabBar_tab1_group_glyph_frame4ac07a11}></View>
+                        <View style={styles.lesson2_tabBar_tab1_group_glyph_symbol}><Text data-layer="de400dfa-ef83-497d-b183-a55b06b800ae" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
                     </View>
-                    <Text data-layer="5b89735e-723b-4b28-a4d6-0265411e6a0a" style={styles.homeScreen1_tabBar_tab1_group_home}>Home</Text>
+                    <Text data-layer="09057cbb-c9b8-4ea4-91ca-d4e8575dc1af" style={styles.lesson2_tabBar_tab1_group_home}>Home</Text>
                 </View>
             </View>
         </View>
-        <View data-layer="a1d40599-3199-4e58-8f12-5830a0c5be83" style={styles.homeScreen1_homeIndicator07433c13}>
-            <View data-layer="638012e7-f2e1-4429-b70e-b9e9d71d4f9e" style={styles.homeScreen1_homeIndicator07433c13_frame2f005c95}></View>
-            <View data-layer="861709fe-1d42-468d-be77-ae1ee2c34282" style={styles.homeScreen1_homeIndicator07433c13_homeIndicator}></View>
-        </View>
-        <View data-layer="1f26eebd-b5a7-4788-86b7-449421cec147" style={styles.homeScreen1_rectangle5}></View>
-        <View data-layer="d97bbc84-f67f-45b4-99bb-9aefa6097466" style={styles.homeScreen1_statusBar417c1eef}>
-            <View data-layer="fc669462-ec04-4936-9c1b-6a304a8e4b28" style={styles.homeScreen1_statusBar417c1eef_frame}></View>
-            <View data-layer="aa1f1f51-e635-415d-be9f-df176c782a41" style={styles.homeScreen1_statusBar417c1eef_statusBar}>
-                <View data-layer="bc9a0b13-b826-431c-bdf6-0866d1c8fb65" style={styles.homeScreen1_statusBar417c1eef_statusBar_battery}>
-                    <View data-layer="0c9f91db-8264-4e84-b190-5e42e371c09b" style={styles.homeScreen1_statusBar417c1eef_statusBar_battery_border}></View>
-                    <Svg data-layer="699de432-1975-47bc-8229-1e0834335828" style={styles.homeScreen1_statusBar417c1eef_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.8280029296875 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
-                    <View data-layer="a244c134-2386-412d-a368-e8bc041a5c07" style={styles.homeScreen1_statusBar417c1eef_statusBar_battery_capacity}></View>
+        <View data-layer="f9681d3e-ec8b-4c58-af99-ab8f6713a4ed" style={styles.lesson2_rectangle12}></View>
+        <View data-layer="5335aab9-d552-418d-9a4b-41cf42a3e667" style={styles.lesson2_statusBaref45b881}>
+            <View data-layer="ae515bff-294a-4550-ac4d-c4580a1bd0a6" style={styles.lesson2_statusBaref45b881_frame}></View>
+            <View data-layer="804b4ef7-40a9-4e99-8cf0-c5902aadbdcc" style={styles.lesson2_statusBaref45b881_statusBar}>
+                <View data-layer="a50cd0a1-625e-4073-8c02-caa032b58a56" style={styles.lesson2_statusBaref45b881_statusBar_battery}>
+                    <View data-layer="a255275d-3624-4fbd-b673-b984fc01562e" style={styles.lesson2_statusBaref45b881_statusBar_battery_border}></View>
+                    <Svg data-layer="aed28592-9f26-4254-a917-f78736e50f09" style={styles.lesson2_statusBaref45b881_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.828125 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
+                    <View data-layer="b9049c51-da4f-4f55-8004-d03b5f2aa63e" style={styles.lesson2_statusBaref45b881_statusBar_battery_capacity}></View>
                 </View>
-                <Svg data-layer="c66a5fea-b4f7-4b19-9e0e-b1f48112e623" style={styles.homeScreen1_statusBar417c1eef_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.8333740234375 12.499755859375" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
-                <Svg data-layer="b1440740-66cf-411c-b950-dc351c0c682f" style={styles.homeScreen1_statusBar417c1eef_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5001220703125 12.166748046875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
-                <View data-layer="ab30e41d-3693-4abe-9832-1d762a703b22" style={styles.homeScreen1_statusBar417c1eef_statusBar_timeStyle}>
-                    <Text data-layer="1be48c57-dc0e-4b6a-ad9d-721e37ec9b7f" style={styles.homeScreen1_statusBar417c1eef_statusBar_timeStyle_time}>9:41</Text>
+                <Svg data-layer="d326ecdc-d311-4cbc-beb4-5995a6eccf1e" style={styles.lesson2_statusBaref45b881_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.83349609375 12.499755859375" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
+                <Svg data-layer="08a51562-8566-41fb-8689-22da5e3c6f39" style={styles.lesson2_statusBaref45b881_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5 12.166748046875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
+                <View data-layer="bca88473-a73f-4b88-9af0-c41d369ca923" style={styles.lesson2_statusBaref45b881_statusBar_timeStyle}>
+                    <Text data-layer="1c6f80a6-5ede-4d61-9eb8-28e060a57782" style={styles.lesson2_statusBaref45b881_statusBar_timeStyle_time}>9:41</Text>
                 </View>
             </View>
         </View>
-        <Text data-layer="faa6aa31-5e25-4156-aa61-61cf9b1b0bd6" style={styles.homeScreen1_welcomeToPocketScienceEthan}>Welcome to 
-Pocket Science, 
-Ethan</Text>
-        <Text data-layer="ec3b1ba0-752c-4fe0-8238-c2d3e0599719" style={styles.homeScreen1_x5238Points}>5238 Points</Text>
-        <Text data-layer="48769c83-c9a3-41f4-8739-fecadeefcc8e" style={styles.homeScreen1_recentlyOpened}>Recently Opened</Text>
-        <View data-layer="91273b1e-3cf5-4e0f-b58e-46ee95c9d831" style={styles.homeScreen1_group38}>
-            <Svg data-layer="2f6ee10d-6565-48a8-b1f9-c9ee989d86d9" style={styles.homeScreen1_group38_path23} preserveAspectRatio="none" viewBox="0 0 161 222" fill="rgba(229, 149, 0, 1)"><SvgPath d="M 20 0 L 141 0 C 152.0457000732422 0 161 8.954304695129395 161 20 L 161 202 C 161 213.0457000732422 152.0457000732422 222 141 222 L 20 222 C 8.954304695129395 222 0 213.0457000732422 0 202 L 0 20 C 0 8.954304695129395 8.954304695129395 0 20 0 Z"  /></Svg>
-            <ReactImage data-layer="b1659217-470a-40df-93e8-fc5b0bc7c1c1" source={require('./assets/ePosterGroup3001.png')} style={styles.homeScreen1_group38_ePosterGroup3001} />
-            <Text data-layer="5bdf21d0-92ad-46c4-98b0-31321462603e" style={styles.homeScreen1_group38_x4Chapters}>4 Chapters</Text>
-            <Text data-layer="3fdfd93e-1dd9-489e-ba98-7ed1aba541f1" style={styles.homeScreen1_group38_upperPrimary}>Upper Primary</Text>
-        </View>
-        <View data-layer="c1550159-f001-4faa-9c6e-a9d5e599da4e" style={styles.homeScreen1_group39}>
-            <ReactImage data-layer="e99fa932-1eb4-4ad2-b0be-dc8726df48a6" source={require('./assets/rectangle7425a1ea64.png')} style={styles.homeScreen1_group39_rectangle7425a1ea64} />
-            <Text data-layer="47a45e06-fde1-4899-b8a3-aae21c9ea361" style={styles.homeScreen1_group39_lowerPrimary0e87b533}>Lower Primary</Text>
-            <Text data-layer="95c9cf31-2e0e-4f9f-9b46-3a31000bc598" style={styles.homeScreen1_group39_x5Chapters481004f8}>5 Chapters</Text>
-            <ReactImage data-layer="1b1dd31a-5017-4294-be22-a792d34baf9a" source={require('./assets/ePosterGroup3002.png')} style={styles.homeScreen1_group39_ePosterGroup3002} />
-        </View>
-        <View data-layer="686dea0e-7cd6-4473-b687-b2b1203ce45b" style={styles.homeScreen1_group37}>
-            <View data-layer="5474f1db-4708-415f-b36f-539c386dc70f" style={styles.homeScreen1_group37_rectangle74}></View>
-            <Text data-layer="2735731d-aa18-46c0-ab09-a08902b5a226" style={styles.homeScreen1_group37_lowerPrimary}>Lower Primary</Text>
-            <Text data-layer="16c97ebb-2222-4f66-8a41-0051f51aa6cc" style={styles.homeScreen1_group37_x5Chapters}>5 Chapters</Text>
-        </View>
+        <Text data-layer="88a7a1f7-013d-45c6-b70c-16396575c34b" style={styles.lesson2_xBack}>< Back</Text>
+        <ReactImage data-layer="46e7b865-7b7e-446b-8466-5f7e13d149d6" source={require('./assets/rectangle79.png')} style={styles.lesson2_rectangle79} />
+        <View data-layer="cdc67060-d16f-4ac1-8548-1592ac6843cf" style={styles.lesson2_rectangle80}></View>
+        <Text data-layer="39c216a4-c6bb-4761-89d0-e49e3173624f" style={styles.lesson2_primarySchoolDiversityCycles}>Primary School Diversity Cycles</Text>
+        <Text data-layer="e0ba0acd-82b5-4e7a-bfbb-b55fa78ae44b" style={styles.lesson2_diversity93baa515}>Diversity</Text>
+        <Text data-layer="c9c61568-6ac7-4457-b958-10f06c6870f5" style={styles.lesson2_topicExplanation}>Topic Explanation</Text>
+        <Text data-layer="2bf46565-6ece-46a6-bbed-0251b16ef846" style={styles.lesson2_subtopics}>Subtopics</Text>
+        <Text data-layer="0350130f-058c-4742-87bb-99186de02b34" style={styles.lesson2_quiz}>Quiz</Text>
+        <Svg data-layer="0d4c90e5-543a-4373-9ccd-10aeef24029c" style={styles.lesson2_line1} preserveAspectRatio="none" viewBox="0 -0.5 104 1" fill="transparent"><SvgPath d="M 104 0 L 0 0"  /></Svg>
+        <Svg data-layer="0bdfdb9b-79b1-4521-95bd-524b9b665c5a" style={styles.lesson2_line2} preserveAspectRatio="none" viewBox="0 -0.5 49 1" fill="transparent"><SvgPath d="M 49 0 L 0 0"  /></Svg>
+        <Svg data-layer="10130be3-7599-407e-ba6b-6ada70e5c190" style={styles.lesson2_line3} preserveAspectRatio="none" viewBox="0 -0.5 30 1" fill="transparent"><SvgPath d="M 30 0 L 0 0"  /></Svg>
+        <Text data-layer="9b62a710-037b-4413-8815-308cc8a70fb2" style={styles.lesson2_diversity}>Diversity</Text>
+        <View data-layer="050b9588-520e-49ce-8ffb-2412a2b73bfe" style={styles.lesson2_rectangle89}></View>
+        <View style={styles.lesson2_spelling}><Text data-layer="faabaf20-165b-47b2-a452-9790e349e376" style={{"marginTop":-1,"color":"rgba(255, 255, 255, 1)","fontSize":37,"fontWeight":"700","fontStyle":"normal","fontFamily":"Helvetica Neue","textAlign":"left","lineHeight":40.7}}>Spelling</Text></View>
+        <View data-layer="2ae4e9a5-e38a-45fa-a11b-105277f71c80" style={styles.lesson2_rectangle101}></View>
+        <Text data-layer="3c5bfd15-18c8-43b9-a4f0-d6a96c6cc84b" style={styles.lesson2_multipleChoiceQuestions}>Multiple Choice Questions</Text>
     </ScrollView>
     );
   }
 }
 
-HomeScreen1.propTypes = {
+Lesson2.propTypes = {
 
 }
 
-HomeScreen1.defaultProps = {
+Lesson2.defaultProps = {
 
 }
 
 
 const styles = StyleSheet.create({
-  "homeScreen1": {
+  "lesson2": {
     "opacity": 1,
     "position": "relative",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -190,49 +178,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_rectangle71": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(247, 142, 105, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 0,
-    "borderTopRightRadius": 0,
-    "borderBottomLeftRadius": 0,
-    "borderBottomRightRadius": 0,
-    "width": 375,
-    "height": 493,
-    "left": 0,
-    "top": 46
-  },
-  "homeScreen1_rectangle70": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 40,
-    "borderTopRightRadius": 40,
-    "borderBottomLeftRadius": 40,
-    "borderBottomRightRadius": 40,
-    "width": 375,
-    "height": 576,
-    "left": 0,
-    "top": 211
-  },
-  "homeScreen1_tabBar": {
+  "lesson2_tabBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -249,7 +195,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 729
   },
-  "homeScreen1_tabBar_background6cb8d5d2": {
+  "lesson2_tabBar_background9432cc70": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -266,7 +212,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_background6cb8d5d2_background": {
+  "lesson2_tabBar_background9432cc70_background": {
     "opacity": 0.9985939860343933,
     "position": "absolute",
     "marginTop": 0,
@@ -282,7 +228,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab4": {
+  "lesson2_tabBar_tab4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -299,7 +245,7 @@ const styles = StyleSheet.create({
     "left": 280,
     "top": 0
   },
-  "homeScreen1_tabBar_tab4_frameb95d7fa9": {
+  "lesson2_tabBar_tab4_frame962c43e5": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -328,7 +274,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab4_group562c75e0": {
+  "lesson2_tabBar_tab4_groupfeb8b4c6": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -345,7 +291,7 @@ const styles = StyleSheet.create({
     "left": 23,
     "top": 3
   },
-  "homeScreen1_tabBar_tab4_group562c75e0_glyph61f91091": {
+  "lesson2_tabBar_tab4_groupfeb8b4c6_glyph0b6e58a9": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -362,7 +308,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab4_group562c75e0_glyph61f91091_frame533f385c": {
+  "lesson2_tabBar_tab4_groupfeb8b4c6_glyph0b6e58a9_frame38a4f438": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -391,7 +337,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab4_group562c75e0_glyph61f91091_symbol1df825c2": {
+  "lesson2_tabBar_tab4_groupfeb8b4c6_glyph0b6e58a9_symbol8390084a": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -415,7 +361,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "homeScreen1_tabBar_tab4_group562c75e0_settings": {
+  "lesson2_tabBar_tab4_groupfeb8b4c6_settings": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -439,7 +385,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "homeScreen1_tabBar_tab3": {
+  "lesson2_tabBar_tab3": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -456,7 +402,7 @@ const styles = StyleSheet.create({
     "left": 188,
     "top": 0
   },
-  "homeScreen1_tabBar_tab3_framebff983c6": {
+  "lesson2_tabBar_tab3_frame39c93d43": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -485,7 +431,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab3_group4de244dd": {
+  "lesson2_tabBar_tab3_groupef99ad88": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -502,7 +448,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 3
   },
-  "homeScreen1_tabBar_tab3_group4de244dd_glyph2e694a60": {
+  "lesson2_tabBar_tab3_groupef99ad88_glyph5cc1b8a8": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -519,7 +465,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab3_group4de244dd_glyph2e694a60_framebb2d5bb6": {
+  "lesson2_tabBar_tab3_groupef99ad88_glyph5cc1b8a8_frame04e6dd67": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -548,7 +494,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab3_group4de244dd_glyph2e694a60_symbol28154a89": {
+  "lesson2_tabBar_tab3_groupef99ad88_glyph5cc1b8a8_symbol22b94f78": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -572,7 +518,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "homeScreen1_tabBar_tab3_group4de244dd_favorites": {
+  "lesson2_tabBar_tab3_groupef99ad88_favorites": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -596,7 +542,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "homeScreen1_tabBar_tab2": {
+  "lesson2_tabBar_tab2": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -613,7 +559,7 @@ const styles = StyleSheet.create({
     "left": 95,
     "top": 0
   },
-  "homeScreen1_tabBar_tab2_frame488744d2": {
+  "lesson2_tabBar_tab2_frameff871c35": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -642,7 +588,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab2_group98ae5150": {
+  "lesson2_tabBar_tab2_group3d42d1ff": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -659,7 +605,7 @@ const styles = StyleSheet.create({
     "left": 18,
     "top": 3
   },
-  "homeScreen1_tabBar_tab2_group98ae5150_glyph8d7153ca": {
+  "lesson2_tabBar_tab2_group3d42d1ff_glyph37c80a1f": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -676,7 +622,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab2_group98ae5150_glyph8d7153ca_frame3d571519": {
+  "lesson2_tabBar_tab2_group3d42d1ff_glyph37c80a1f_framee5b7bf79": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -705,7 +651,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab2_group98ae5150_glyph8d7153ca_symbol34253b94": {
+  "lesson2_tabBar_tab2_group3d42d1ff_glyph37c80a1f_symbolf8c86ef8": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -729,7 +675,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "homeScreen1_tabBar_tab2_group98ae5150_awards": {
+  "lesson2_tabBar_tab2_group3d42d1ff_awards": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -753,7 +699,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "homeScreen1_tabBar_tab1": {
+  "lesson2_tabBar_tab1": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -770,7 +716,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab1_frame9799da4c": {
+  "lesson2_tabBar_tab1_frame852096db": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -799,7 +745,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab1_group": {
+  "lesson2_tabBar_tab1_group": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -816,7 +762,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 3
   },
-  "homeScreen1_tabBar_tab1_group_glyph": {
+  "lesson2_tabBar_tab1_group_glyph": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -833,7 +779,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab1_group_glyph_framecc06b836": {
+  "lesson2_tabBar_tab1_group_glyph_frame4ac07a11": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -862,7 +808,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_tabBar_tab1_group_glyph_symbol": {
+  "lesson2_tabBar_tab1_group_glyph_symbol": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -886,7 +832,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "homeScreen1_tabBar_tab1_group_home": {
+  "lesson2_tabBar_tab1_group_home": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -910,65 +856,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "homeScreen1_homeIndicator07433c13": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 375,
-    "height": 34,
-    "left": 0,
-    "top": 778
-  },
-  "homeScreen1_homeIndicator07433c13_frame2f005c95": {
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 0,
-    "borderTopRightRadius": 0,
-    "borderBottomLeftRadius": 0,
-    "borderBottomRightRadius": 0,
-    "width": 375,
-    "height": 34,
-    "left": 0,
-    "top": 0
-  },
-  "homeScreen1_homeIndicator07433c13_homeIndicator": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(0, 0, 0, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 100,
-    "borderTopRightRadius": 100,
-    "borderBottomLeftRadius": 100,
-    "borderBottomRightRadius": 100,
-    "width": 134,
-    "height": 5,
-    "left": 121,
-    "top": 21
-  },
-  "homeScreen1_rectangle5": {
+  "lesson2_rectangle12": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(230, 230, 230, 1)",
@@ -989,7 +877,23 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_statusBar417c1eef": {
+  "lesson2_displayShape": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 0,
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 0,
+    "width": 374,
+    "height": 811,
+    "left": -0.5,
+    "top": -0.5
+  },
+  "lesson2_statusBaref45b881": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1003,10 +907,10 @@ const styles = StyleSheet.create({
     "paddingLeft": 0,
     "width": 375,
     "height": 44,
-    "left": 0,
+    "left": -1,
     "top": 0
   },
-  "homeScreen1_statusBar417c1eef_frame": {
+  "lesson2_statusBaref45b881_frame": {
     "opacity": 0.0010436499724164605,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -1027,7 +931,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_statusBar417c1eef_statusBar": {
+  "lesson2_statusBaref45b881_statusBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1044,7 +948,7 @@ const styles = StyleSheet.create({
     "left": 21,
     "top": 13
   },
-  "homeScreen1_statusBar417c1eef_statusBar_battery": {
+  "lesson2_statusBaref45b881_statusBar_battery": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1061,7 +965,7 @@ const styles = StyleSheet.create({
     "left": 315.67,
     "top": 3.33
   },
-  "homeScreen1_statusBar417c1eef_statusBar_battery_border": {
+  "lesson2_statusBaref45b881_statusBar_battery_border": {
     "opacity": 0.3499999940395355,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1090,7 +994,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_statusBar417c1eef_statusBar_battery_cap": {
+  "lesson2_statusBaref45b881_statusBar_battery_cap": {
     "opacity": 0.4000000059604645,
     "position": "absolute",
     "marginTop": 0,
@@ -1106,7 +1010,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 2.67
   },
-  "homeScreen1_statusBar417c1eef_statusBar_battery_capacity": {
+  "lesson2_statusBaref45b881_statusBar_battery_capacity": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(0, 0, 0, 1)",
@@ -1135,7 +1039,7 @@ const styles = StyleSheet.create({
     "left": 1.5,
     "top": 1.5
   },
-  "homeScreen1_statusBar417c1eef_statusBar_wifi": {
+  "lesson2_statusBaref45b881_statusBar_wifi": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -1151,7 +1055,7 @@ const styles = StyleSheet.create({
     "left": 294.34,
     "top": 2.33
   },
-  "homeScreen1_statusBar417c1eef_statusBar_cellularConnection": {
+  "lesson2_statusBaref45b881_statusBar_cellularConnection": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -1167,7 +1071,7 @@ const styles = StyleSheet.create({
     "left": 272.34,
     "top": 2.67
   },
-  "homeScreen1_statusBar417c1eef_statusBar_timeStyle": {
+  "lesson2_statusBaref45b881_statusBar_timeStyle": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1184,7 +1088,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_statusBar417c1eef_statusBar_timeStyle_time": {
+  "lesson2_statusBaref45b881_statusBar_timeStyle_time": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1207,7 +1111,30 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "homeScreen1_displayShape": {
+  "lesson2_xBack": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 16,
+    "fontWeight": "300",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 49,
+    "height": 18,
+    "left": 16,
+    "top": 71
+  },
+  "lesson2_rectangle79": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -1218,17 +1145,38 @@ const styles = StyleSheet.create({
     "borderTopRightRadius": 0,
     "borderBottomLeftRadius": 0,
     "borderBottomRightRadius": 0,
-    "width": 374,
-    "height": 811,
-    "left": -0.5,
-    "top": -0.5
+    "width": 375,
+    "height": 493,
+    "left": 0,
+    "top": 57
   },
-  "homeScreen1_welcomeToPocketScienceEthan": {
+  "lesson2_rectangle80": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 40,
+    "borderTopRightRadius": 40,
+    "borderBottomLeftRadius": 40,
+    "borderBottomRightRadius": 40,
+    "width": 375,
+    "height": 515,
+    "left": 0,
+    "top": 198
+  },
+  "lesson2_primarySchoolDiversityCycles": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
     "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 25,
+    "fontSize": 19,
     "fontWeight": "500",
     "fontStyle": "normal",
     "fontFamily": "Helvetica Neue",
@@ -1242,21 +1190,22 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 223,
-    "height": 107,
-    "left": 15,
-    "top": 72
+    "width": 280,
+    "height": 39,
+    "left": 24,
+    "top": 122
   },
-  "homeScreen1_x5238Points": {
+  "lesson2_diversity93baa515": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
     "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 18,
+    "fontSize": 30,
     "fontWeight": "700",
     "fontStyle": "normal",
     "fontFamily": "Helvetica Neue",
     "textAlign": "left",
+    "lineHeight": 35,
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
@@ -1265,21 +1214,232 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 99,
-    "height": 22,
-    "left": 256,
-    "top": 65
+    "width": 125,
+    "height": 41,
+    "left": 24,
+    "top": 80.5
   },
-  "homeScreen1_recentlyOpened": {
+  "lesson2_topicExplanation": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(123, 122, 122, 1)",
+    "color": "rgba(160, 157, 157, 1)",
+    "fontSize": 16,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 131,
+    "height": 38,
+    "left": 24,
+    "top": 217
+  },
+  "lesson2_subtopics": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(160, 157, 157, 1)",
+    "fontSize": 16,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 75,
+    "height": 38,
+    "left": 190,
+    "top": 217
+  },
+  "lesson2_quiz": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 16,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 33,
+    "height": 38,
+    "left": 300,
+    "top": 217
+  },
+  "lesson2_line1": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 104,
+    "height": 1,
+    "left": 34.5,
+    "top": 252
+  },
+  "lesson2_line2": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 49,
+    "height": 1,
+    "left": 204.5,
+    "top": 252
+  },
+  "lesson2_line3": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 30,
+    "height": 1,
+    "left": 301.5,
+    "top": 252
+  },
+  "lesson2_diversity": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 30,
+    "fontWeight": "700",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 125,
+    "height": 41,
+    "left": 24,
+    "top": 80.5
+  },
+  "lesson2_rectangle89": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(144, 205, 183, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 20,
+    "borderTopRightRadius": 20,
+    "borderBottomLeftRadius": 20,
+    "borderBottomRightRadius": 20,
+    "width": 321,
+    "height": 92,
+    "left": 27,
+    "top": 327
+  },
+  "lesson2_spelling": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 37,
+    "fontWeight": "700",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 40.7,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 141,
+    "height": 44,
+    "left": 117,
+    "top": 355.5
+  },
+  "lesson2_rectangle101": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(144, 205, 183, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 20,
+    "borderTopRightRadius": 20,
+    "borderBottomLeftRadius": 20,
+    "borderBottomRightRadius": 20,
+    "width": 321,
+    "height": 92,
+    "left": 27,
+    "top": 469
+  },
+  "lesson2_multipleChoiceQuestions": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
     "fontSize": 22,
     "fontWeight": "700",
     "fontStyle": "normal",
     "fontFamily": "Helvetica Neue",
     "textAlign": "left",
+    "lineHeight": 35,
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
@@ -1288,297 +1448,9 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 180,
-    "height": 26,
-    "left": 14,
-    "top": 527
-  },
-  "homeScreen1_group38": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 256,
-    "height": 253,
-    "left": 151,
-    "top": 274
-  },
-  "homeScreen1_group38_path23": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "shadowColor": "rgb(0,  0,  0)",
-    "shadowOpacity": 0.1607843137254902,
-    "shadowOffset": {
-      "width": 3,
-      "height": 3
-    },
-    "shadowRadius": 3,
-    "width": 161,
-    "height": 222,
-    "left": 47,
-    "top": 0
-  },
-  "homeScreen1_group38_ePosterGroup3001": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 0,
-    "borderTopRightRadius": 0,
-    "borderBottomLeftRadius": 0,
-    "borderBottomRightRadius": 0,
-    "width": 256,
-    "height": 192,
-    "left": 0,
-    "top": 61
-  },
-  "homeScreen1_group38_x4Chapters": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(244, 238, 226, 1)",
-    "fontSize": 18,
-    "fontWeight": "500",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 91,
-    "height": 22,
-    "left": 82,
-    "top": 63
-  },
-  "homeScreen1_group38_upperPrimary": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(244, 238, 226, 1)",
-    "fontSize": 21,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 145,
-    "height": 25,
-    "left": 56,
-    "top": 18
-  },
-  "homeScreen1_group39": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 183,
-    "height": 231,
-    "left": 7,
-    "top": 274
-  },
-  "homeScreen1_group39_rectangle7425a1ea64": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 20,
-    "borderTopRightRadius": 20,
-    "borderBottomLeftRadius": 20,
-    "borderBottomRightRadius": 20,
-    "width": 161,
-    "height": 222,
-    "left": 10,
-    "top": 0
-  },
-  "homeScreen1_group39_lowerPrimary0e87b533": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 21,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 146,
-    "height": 25,
-    "left": 18,
-    "top": 16
-  },
-  "homeScreen1_group39_x5Chapters481004f8": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 18,
-    "fontWeight": "500",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 91,
-    "height": 22,
-    "left": 45,
-    "top": 61
-  },
-  "homeScreen1_group39_ePosterGroup3002": {
-    "opacity": 0.44999998807907104,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 0,
-    "borderTopRightRadius": 0,
-    "borderBottomLeftRadius": 0,
-    "borderBottomRightRadius": 0,
-    "width": 183,
-    "height": 137,
-    "left": 0,
-    "top": 94
-  },
-  "homeScreen1_group37": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 347,
-    "height": 92,
-    "left": 14,
-    "top": 583
-  },
-  "homeScreen1_group37_rectangle74": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(100, 170, 149, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 20,
-    "borderTopRightRadius": 20,
-    "borderBottomLeftRadius": 20,
-    "borderBottomRightRadius": 20,
-    "shadowColor": "rgb(0,  0,  0)",
-    "shadowOpacity": 0.1607843137254902,
-    "shadowOffset": {
-      "width": 3,
-      "height": 3
-    },
-    "shadowRadius": 3,
-    "width": 347,
-    "height": 92,
-    "left": 0,
-    "top": 0
-  },
-  "homeScreen1_group37_lowerPrimary": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 23,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 160,
-    "height": 27,
-    "left": 94,
-    "top": 12
-  },
-  "homeScreen1_group37_x5Chapters": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 20,
-    "fontWeight": "500",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 101,
-    "height": 24,
-    "left": 123,
-    "top": 51
+    "width": 276,
+    "height": 39,
+    "left": 50,
+    "top": 497.5
   }
 });

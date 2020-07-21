@@ -7,7 +7,7 @@ import {Path as SvgPath} from 'react-native-svg';
 import {Text as SvgText} from 'react-native-svg';
 import {Image as SvgImage} from 'react-native-svg';
 
-export default class TiersScreen extends Component {
+export default class ChooseTopic extends Component {
 
   constructor(props) {
       super(props);
@@ -67,115 +67,113 @@ export default class TiersScreen extends Component {
   render() {
     
     return (
-    <ScrollView data-layer="10b58d7e-47b6-4f62-83af-69156525c582" style={styles.tiersScreen}>
-        <View data-layer="a102aa04-d3c0-4e93-be58-49cce7f9c98b" style={styles.tiersScreen_rectangle5}></View>
-        <View data-layer="9fa62713-3001-40f9-a51a-42c51c85cb0c" style={styles.tiersScreen_statusBar1f28c5bc}>
-            <View data-layer="32739420-13e3-4964-8c11-91d11e2e075b" style={styles.tiersScreen_statusBar1f28c5bc_frame8dd744ea}></View>
-            <View data-layer="626073ce-21cd-441f-8304-c16f54391c26" style={styles.tiersScreen_statusBar1f28c5bc_statusBar}>
-                <View data-layer="3ed094b6-4c40-4137-b593-bacd91376c5a" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_battery}>
-                    <View data-layer="c326bf65-0834-4e74-84e9-44300ca06640" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_battery_border}></View>
-                    <Svg data-layer="48c0d9f1-f64c-4ef2-aa68-a61cf51e2e9e" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.8280029296875 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
-                    <View data-layer="ddbe93f8-c7fc-4e21-8294-eeda1c8e427d" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_battery_capacity}></View>
+    <ScrollView data-layer="e49a1682-10af-43d5-830a-aa5f55930649" style={styles.chooseTopic}>
+        <ReactImage data-layer="45951bac-2290-41ae-a607-9bb73641e306" source={require('./assets/rectangle71.png')} style={styles.chooseTopic_rectangle71} />
+        <View data-layer="48a83500-8a60-48a7-96a4-46ca9ebdb94f" style={styles.chooseTopic_rectangle70}></View>
+        <ReactImage data-layer="f0451f7a-0960-42f4-b44e-0e8058b65034" source={require('./assets/rectangle768b7ad9f3.png')} style={styles.chooseTopic_rectangle768b7ad9f3} />
+        <ReactImage data-layer="cf2b2eea-9b69-4aec-a362-c04462dca743" source={require('./assets/rectangle77f6eee995.png')} style={styles.chooseTopic_rectangle77f6eee995} />
+        <Text data-layer="a06f49dc-95b6-4e77-977b-5ac9b45b73a7" style={styles.chooseTopic_overallTopic9b31e6f7}>Overall Topic</Text>
+        <Text data-layer="50e7373d-a86a-47fc-95a3-90bc1672743a" style={styles.chooseTopic_xConcepts1955919f}>_ Concepts</Text>
+        <View data-layer="896e481d-1a49-4ef8-9d1f-a08a029654af" style={styles.chooseTopic_rectangle5}></View>
+        <View data-layer="55b41e3e-a477-43b5-b08d-10c73bfd5c2b" style={styles.chooseTopic_statusBara8119b8b}>
+            <View data-layer="a58a6f10-fa93-4e63-8169-0a3164fb2abb" style={styles.chooseTopic_statusBara8119b8b_frame65fe6072}></View>
+            <View data-layer="95070dc9-409c-4f08-9850-7249728925c7" style={styles.chooseTopic_statusBara8119b8b_statusBar}>
+                <View data-layer="1cc787d5-5d9d-4639-aa87-76df0c1256f3" style={styles.chooseTopic_statusBara8119b8b_statusBar_battery}>
+                    <View data-layer="9cb0124f-2937-4486-9a5a-f4cff35bc126" style={styles.chooseTopic_statusBara8119b8b_statusBar_battery_border}></View>
+                    <Svg data-layer="02229c3a-fd73-4e28-bebd-70a62925089f" style={styles.chooseTopic_statusBara8119b8b_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.828125 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
+                    <View data-layer="597bade7-2e42-48d4-a7cc-f787b231c52d" style={styles.chooseTopic_statusBara8119b8b_statusBar_battery_capacity}></View>
                 </View>
-                <Svg data-layer="57d9b998-7fb2-42d2-b39e-ee1e1fd0f3ca" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.8333740234375 12.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
-                <Svg data-layer="4186217f-87c9-460e-b37b-8c5c9f4e8fa3" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5001220703125 12.1669921875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
-                <View data-layer="30fdf0af-18d6-4f45-94b1-b66f6a36da38" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_timeStyle}>
-                    <Text data-layer="de44f079-6839-4298-add2-9db6b4c7f75d" style={styles.tiersScreen_statusBar1f28c5bc_statusBar_timeStyle_time}>9:41</Text>
+                <Svg data-layer="c80f97f9-e0b1-4e7d-8386-820dcd0be420" style={styles.chooseTopic_statusBara8119b8b_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.833251953125 12.499755859375" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
+                <Svg data-layer="df098427-ba3c-487d-8c34-992a1b6b211e" style={styles.chooseTopic_statusBara8119b8b_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5 12.166748046875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
+                <View data-layer="30edc85e-91b3-4396-95d8-4018b8cf6c10" style={styles.chooseTopic_statusBara8119b8b_statusBar_timeStyle}>
+                    <Text data-layer="69b73a00-c9fa-4268-91f7-5dcdcd4f87a0" style={styles.chooseTopic_statusBara8119b8b_statusBar_timeStyle_time}>9:41</Text>
                 </View>
             </View>
         </View>
-        <View data-layer="d4e25739-9eea-4cff-9674-c2fe973dabea" style={styles.tiersScreen_group9}>
-            <Text data-layer="677809de-4486-45b1-87a8-c8b91575f2a7" style={styles.tiersScreen_group9_awardsaca39447}>Awards</Text>
-            <Text data-layer="41e077a4-9833-4381-9855-b9f4544ea5f1" style={styles.tiersScreen_group9_xBackfcecf12d}>< Back</Text>
-        </View>
-        <View data-layer="a9bc7a8c-1c92-4c76-b6dc-b0eb6d8047da" style={styles.tiersScreen_tabBar}>
-            <View data-layer="b715303c-3b47-472d-a0a5-0785e40573b4" style={styles.tiersScreen_tabBar_background249ba380}>
-                <ReactImage data-layer="0c032a51-f6d6-4a32-ba4f-91eb7fd51a85" source={require('./assets/background.png')} style={styles.tiersScreen_tabBar_background249ba380_background} />
+        <View data-layer="1bcf1f18-413b-446f-8219-5f758dcdfb48" style={styles.chooseTopic_tabBar}>
+            <View data-layer="0d01eb14-f626-4c69-837f-0298b7d29293" style={styles.chooseTopic_tabBar_backgroundf6091ae4}>
+                <ReactImage data-layer="4c74a110-ccaf-4882-80e4-d6084080b826" source={require('./assets/background.png')} style={styles.chooseTopic_tabBar_backgroundf6091ae4_background} />
             </View>
-            <View data-layer="e46e773d-0f7f-4b85-85ee-b0a15aeea4c9" style={styles.tiersScreen_tabBar_tab4}>
-                <View data-layer="bddf09b4-bbc4-440d-befd-76d4396bab50" style={styles.tiersScreen_tabBar_tab4_frame54a57192}></View>
-                <View data-layer="7414f8b7-c0e2-493b-a20f-27523ee8e3a8" style={styles.tiersScreen_tabBar_tab4_group524359c5}>
-                    <View data-layer="4f7e5466-fd96-4ba0-8c9e-4d2789b6b039" style={styles.tiersScreen_tabBar_tab4_group524359c5_glyphf97e52ba}>
-                        <View data-layer="c392caa8-d7a6-424f-8baf-923dd39f8b6f" style={styles.tiersScreen_tabBar_tab4_group524359c5_glyphf97e52ba_frameeabc0c09}></View>
-                        <View style={styles.tiersScreen_tabBar_tab4_group524359c5_glyphf97e52ba_symbol2536a647}><Text data-layer="88d9fa82-a1d4-40da-b9f3-537f8ac8a867" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
+            <View data-layer="18f7b6fd-999d-4343-8c6a-d62c74d99b67" style={styles.chooseTopic_tabBar_tab4}>
+                <View data-layer="4c56892b-877d-4e0b-af11-e1197a7cda4d" style={styles.chooseTopic_tabBar_tab4_frame037541aa}></View>
+                <View data-layer="3841032c-3e9f-4696-bae4-51c68f50446a" style={styles.chooseTopic_tabBar_tab4_group744eb35d}>
+                    <View data-layer="99179855-4683-40cf-a546-edc602d3f3ef" style={styles.chooseTopic_tabBar_tab4_group744eb35d_glyph8e1372af}>
+                        <View data-layer="1c5dfcab-36a0-4e89-93d3-d8325ee07a64" style={styles.chooseTopic_tabBar_tab4_group744eb35d_glyph8e1372af_frame0d8f9719}></View>
+                        <View style={styles.chooseTopic_tabBar_tab4_group744eb35d_glyph8e1372af_symbol072c03da}><Text data-layer="18ae2335-0e17-43bd-b2d2-c5bd621434ba" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
                     </View>
-                    <Text data-layer="ed0b102e-bcbd-4e7f-a582-b2cf5ab2e5e6" style={styles.tiersScreen_tabBar_tab4_group524359c5_settings}>Settings</Text>
+                    <Text data-layer="fa764ad1-77b3-414c-8808-c1cb4b2d2a42" style={styles.chooseTopic_tabBar_tab4_group744eb35d_settings}>Settings</Text>
                 </View>
             </View>
-            <View data-layer="839a74bb-62b9-471f-bde7-5f210b5a29e8" style={styles.tiersScreen_tabBar_tab3}>
-                <View data-layer="abe6e5ac-dab6-48f3-86f6-d5eb7be264a3" style={styles.tiersScreen_tabBar_tab3_frameb1480cbe}></View>
-                <View data-layer="64236d59-c6bc-47cf-a48a-013a5dfbf00c" style={styles.tiersScreen_tabBar_tab3_groupa4f1e54c}>
-                    <View data-layer="63b80ff9-3ae4-49dc-b455-77a7307885e6" style={styles.tiersScreen_tabBar_tab3_groupa4f1e54c_glyph5383005b}>
-                        <View data-layer="657fcca2-d0a9-4e1d-81d9-4dd8901ceeb3" style={styles.tiersScreen_tabBar_tab3_groupa4f1e54c_glyph5383005b_frame59eb1970}></View>
-                        <View style={styles.tiersScreen_tabBar_tab3_groupa4f1e54c_glyph5383005b_symbole3587c82}><Text data-layer="f5381065-e91f-44e2-9b27-f11f25992046" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
+            <View data-layer="d9d9a311-351c-412e-8ff0-5e100309ba56" style={styles.chooseTopic_tabBar_tab3}>
+                <View data-layer="da9d0795-b19a-4044-a519-e7dcf19a3401" style={styles.chooseTopic_tabBar_tab3_frameeaaa00ae}></View>
+                <View data-layer="10bc4486-83f5-42c5-8dd7-836c8738b241" style={styles.chooseTopic_tabBar_tab3_group7ad1f729}>
+                    <View data-layer="12ecd69a-b381-479e-922d-bb6f507f34dd" style={styles.chooseTopic_tabBar_tab3_group7ad1f729_glyph63c60976}>
+                        <View data-layer="b3501ff9-709c-4371-a0a6-01b99e7b4368" style={styles.chooseTopic_tabBar_tab3_group7ad1f729_glyph63c60976_frame9dfbb38b}></View>
+                        <View style={styles.chooseTopic_tabBar_tab3_group7ad1f729_glyph63c60976_symbol4e143408}><Text data-layer="e3d821f4-d8e3-436d-84ab-04bc86d92a3b" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
                     </View>
-                    <Text data-layer="f5d38e5f-9067-4118-8f30-d59e115e7dab" style={styles.tiersScreen_tabBar_tab3_groupa4f1e54c_favorites}>Favorites</Text>
+                    <Text data-layer="cc0f1a93-a23c-440b-a8fa-3711fb2d8131" style={styles.chooseTopic_tabBar_tab3_group7ad1f729_favorites}>Favorites</Text>
                 </View>
             </View>
-            <View data-layer="869ea274-c636-49da-a9c6-5be054902636" style={styles.tiersScreen_tabBar_tab2}>
-                <View data-layer="0637a2a3-14f1-47ad-aa57-bbea276529c3" style={styles.tiersScreen_tabBar_tab2_frame7df30878}></View>
-                <View data-layer="3d72592e-dde0-4d16-ab6e-bc2cf05b43c3" style={styles.tiersScreen_tabBar_tab2_group9d2c6316}>
-                    <View data-layer="7bf720f6-a6d4-4c76-b94d-05fcc02f2ff8" style={styles.tiersScreen_tabBar_tab2_group9d2c6316_glyph7de8d98e}>
-                        <View data-layer="5e9c0b07-b2f9-4642-96da-a26e01af2f41" style={styles.tiersScreen_tabBar_tab2_group9d2c6316_glyph7de8d98e_frame8c59f448}></View>
-                        <View style={styles.tiersScreen_tabBar_tab2_group9d2c6316_glyph7de8d98e_symbol4fe31cd8}><Text data-layer="a5f46c12-efb2-4b98-89da-11da96b271f5" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
+            <View data-layer="bb06f9ab-0dae-46ad-b0b2-fec01b867846" style={styles.chooseTopic_tabBar_tab2}>
+                <View data-layer="b60f9d52-0785-4347-aa39-2d4022deaa51" style={styles.chooseTopic_tabBar_tab2_frame37711fb8}></View>
+                <View data-layer="3869146b-f8ff-4627-ba06-080c54f90aff" style={styles.chooseTopic_tabBar_tab2_groupdf980f4f}>
+                    <View data-layer="bbf0ff80-cf56-4279-a05b-0a70a1c205ce" style={styles.chooseTopic_tabBar_tab2_groupdf980f4f_glyph11f2a5f8}>
+                        <View data-layer="7962fbf3-c493-4f59-b461-57e0037c354d" style={styles.chooseTopic_tabBar_tab2_groupdf980f4f_glyph11f2a5f8_frameb932defe}></View>
+                        <View style={styles.chooseTopic_tabBar_tab2_groupdf980f4f_glyph11f2a5f8_symbolc81ebdb3}><Text data-layer="c5c9dfce-1865-4dbb-a57c-18ee65ce312a" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
                     </View>
-                    <Text data-layer="9a10fdc6-a513-46ae-86f7-6a8656c39c2c" style={styles.tiersScreen_tabBar_tab2_group9d2c6316_awards}>Awards
+                    <Text data-layer="18c92dbe-d12c-42a1-bac1-5da87255291e" style={styles.chooseTopic_tabBar_tab2_groupdf980f4f_awards}>Awards
 </Text>
                 </View>
             </View>
-            <View data-layer="da091891-29c3-4a5a-8e8b-48efec8b4b48" style={styles.tiersScreen_tabBar_tab1}>
-                <View data-layer="51aba8ef-1891-449f-a0bc-2fb2f4c62a49" style={styles.tiersScreen_tabBar_tab1_frameb7fc9ee6}></View>
-                <View data-layer="fde706bf-9a1a-497a-a758-8f89725c4fa9" style={styles.tiersScreen_tabBar_tab1_group}>
-                    <View data-layer="f49dd6e4-83ee-4ba9-b768-55bad1130199" style={styles.tiersScreen_tabBar_tab1_group_glyph}>
-                        <View data-layer="bf85bc51-7e83-4e5d-8a0b-e7a53ade765d" style={styles.tiersScreen_tabBar_tab1_group_glyph_frame85e8f990}></View>
-                        <View style={styles.tiersScreen_tabBar_tab1_group_glyph_symbol}><Text data-layer="21fb7786-83a6-4c94-b183-340ad2fbc931" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
+            <View data-layer="7f3273de-019a-40ca-bde6-d21659ca8de7" style={styles.chooseTopic_tabBar_tab1}>
+                <View data-layer="bbfc1ebf-1da1-4e5f-96d2-c98fe530aa2c" style={styles.chooseTopic_tabBar_tab1_frame410a60ae}></View>
+                <View data-layer="060518c7-8864-42a5-a3ef-be18a682faa9" style={styles.chooseTopic_tabBar_tab1_group}>
+                    <View data-layer="c172bb41-4ce8-4807-bfed-4f7c9acbb969" style={styles.chooseTopic_tabBar_tab1_group_glyph}>
+                        <View data-layer="8c8ee431-25fc-47e5-9773-665bca63f5e0" style={styles.chooseTopic_tabBar_tab1_group_glyph_frame3823c6d4}></View>
+                        <View style={styles.chooseTopic_tabBar_tab1_group_glyph_symbol}><Text data-layer="7666a389-814e-4903-b451-29bc209356e1" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
                     </View>
-                    <Text data-layer="89029267-df9d-4470-abaa-5080e499f8f3" style={styles.tiersScreen_tabBar_tab1_group_home}>Home</Text>
+                    <Text data-layer="57ffc89b-b4a0-4850-9c2f-7e0328af6b28" style={styles.chooseTopic_tabBar_tab1_group_home}>Home</Text>
                 </View>
             </View>
         </View>
-        <View data-layer="f8d68460-1379-4fc5-8041-9d8e06e1f898" style={styles.tiersScreen_homeIndicator3050ef88}>
-            <View data-layer="64010797-f76e-4d84-95b2-7ed41c37b8c3" style={styles.tiersScreen_homeIndicator3050ef88_frame}></View>
-            <View data-layer="a758efb4-f782-4f03-9b36-a9839ff96ff4" style={styles.tiersScreen_homeIndicator3050ef88_homeIndicator}></View>
+        <View data-layer="5cacfc2d-ee77-47ce-a949-5d05d49526b7" style={styles.chooseTopic_homeIndicator7d36b29d}>
+            <View data-layer="5f55d810-21b5-4148-ad35-f17a44972aae" style={styles.chooseTopic_homeIndicator7d36b29d_frame}></View>
+            <View data-layer="dfe05f50-3d0a-49db-9fba-a75c8a1c5a83" style={styles.chooseTopic_homeIndicator7d36b29d_homeIndicator}></View>
         </View>
-        <View data-layer="4f41be86-010e-4378-853a-f321ece826c3" style={styles.tiersScreen_group56}>
-            <ReactImage data-layer="edd23a83-bdbf-4803-98f5-b62ebaa71a78" source={require('./assets/rectangle79.png')} style={styles.tiersScreen_group56_rectangle79} />
-            <View data-layer="26fd0388-86e3-404c-b210-5649dc1c31b8" style={styles.tiersScreen_group56_rectangle80}></View>
-        </View>
-        <Text data-layer="97187dc6-60e2-44af-8b01-9f2491479eec" style={styles.tiersScreen_tiers}>Tiers</Text>
-        <Text data-layer="3456352d-e3fd-4c91-bcb2-d940ffd1d462" style={styles.tiersScreen_xBack}>< Back</Text>
-        <Svg data-layer="8dbeeb14-1ab4-41d5-b559-4f68c0664190" style={styles.tiersScreen_path21} preserveAspectRatio="none" viewBox="0 0 359 130" fill="transparent"><Defs><Pattern id="img-path21" patternContentUnits="userSpaceOnUse" width="100%" height="100%"><SvgImage xlinkHref={require('./assets/path21.png')} x="0" y="0" width="359.00px" height="130.00px" /></Pattern></Defs><SvgPath d="M 21 0 L 338 0 C 349.5979919433594 0 359 9.402019500732422 359 21 L 359 109 C 359 120.5979766845703 349.5979919433594 130 338 130 L 21 130 C 9.402019500732422 130 0 120.5979766845703 0 109 L 0 21 C 0 9.402019500732422 9.402019500732422 0 21 0 Z" fill="url(#img-path21)" /></Svg>
-        <ReactImage data-layer="e07a47cc-1a54-4be0-8d16-e569d10d3a35" source={require('./assets/rectangle86.png')} style={styles.tiersScreen_rectangle86} />
-        <ReactImage data-layer="25dfcd48-efa4-4c27-a8d1-684327843049" source={require('./assets/rectangle87.png')} style={styles.tiersScreen_rectangle87} />
-        <ReactImage data-layer="b933f27e-4af5-4314-9daa-9b7bd103466b" source={require('./assets/rectangle88.png')} style={styles.tiersScreen_rectangle88} />
-        <Text data-layer="bd6b0ed5-e4b3-4022-a40a-de9c6ae0acba" style={styles.tiersScreen_bronze}>Bronze</Text>
-        <Text data-layer="714a149c-fe6b-48db-add9-04b29afa666f" style={styles.tiersScreen_silver}>Silver</Text>
-        <Text data-layer="5751b85f-748a-4f53-882d-4ea83928eba6" style={styles.tiersScreen_gold}>Gold</Text>
-        <Text data-layer="84ab4485-cd29-4ad8-a331-d438daf32a86" style={styles.tiersScreen_diamond}>Diamond</Text>
-        <Text data-layer="946e8ef3-066f-460d-b04f-199c299f1849" style={styles.tiersScreen_tierRequirement400Points}>Tier Requirement: 400 Points</Text>
-        <Text data-layer="14bc1657-939a-4ce2-90fb-8470ac2ee027" style={styles.tiersScreen_tierRequirement1500Points}>Tier Requirement: 1500 Points</Text>
-        <Text data-layer="d967695d-3d5d-4eae-af7a-b0e344d7f4ef" style={styles.tiersScreen_tierRequirement5000Points}>Tier Requirement: 5000 Points</Text>
-        <Text data-layer="8b0fce4f-6836-41cf-aa3f-e6082e5a61b6" style={styles.tiersScreen_tierRequirement10000Points}>Tier Requirement: 10000 Points</Text>
-        <View data-layer="dd889252-3e58-4ec9-bc44-6e8dab0c1961" style={styles.tiersScreen_group54}>
-            <View data-layer="6e26d55f-f1e2-4008-97ac-24a2ba49d470" style={styles.tiersScreen_group54_rectangle84}></View>
-            <Text data-layer="ac4f55d2-e2e5-45d1-bb5f-00a4d7aff12c" style={styles.tiersScreen_group54_x5238Points}>5238 Points</Text>
-        </View>
+        <Text data-layer="0377bacd-8e9a-4bc7-9777-8c93449000da" style={styles.chooseTopic_theLowerPrimarySyllabus}>The Lower Primary Syllabus </Text>
+        <Text data-layer="f397d02b-faac-4ea9-8013-a7e5a73dbab6" style={styles.chooseTopic_lowerPrimary}>Lower Primary</Text>
+        <ReactImage data-layer="763d3c97-bf53-4a66-aadf-f03ea7d0ec6b" source={require('./assets/rectangle76ffc8b8da.png')} style={styles.chooseTopic_rectangle76ffc8b8da} />
+        <ReactImage data-layer="71e5896a-89bf-47f2-868b-e3b8a10098c3" source={require('./assets/rectangle77b7cea739.png')} style={styles.chooseTopic_rectangle77b7cea739} />
+        <Text data-layer="d3eeaca6-8093-4a1b-bce3-7fba7b1dd1cb" style={styles.chooseTopic_diversity}>Diversity</Text>
+        <Text data-layer="8f904797-95ac-41a1-8852-ce82d58f64dd" style={styles.chooseTopic_xConceptsaaf542d6}>_ Concepts</Text>
+        <ReactImage data-layer="592b638b-c519-4476-a6d0-c40024c868d0" source={require('./assets/rectangle761b8fdcb9.png')} style={styles.chooseTopic_rectangle761b8fdcb9} />
+        <ReactImage data-layer="0dd5ffe9-33fb-4c63-81af-5101c6422bc6" source={require('./assets/rectangle776f7a3079.png')} style={styles.chooseTopic_rectangle776f7a3079} />
+        <Text data-layer="3d3675dd-d3a7-4eca-a4b5-1c7d2d1fa090" style={styles.chooseTopic_cycles}>Cycles</Text>
+        <Text data-layer="b9fe934c-013b-4e65-a543-2a50262a37c6" style={styles.chooseTopic_xConceptsf97a7976}>_ Concepts</Text>
+        <ReactImage data-layer="9db1b721-c02f-4713-b8b3-5bf93abcba11" source={require('./assets/rectangle76e56bb666.png')} style={styles.chooseTopic_rectangle76e56bb666} />
+        <ReactImage data-layer="7f888c58-4cea-40ee-99eb-7ceabd20a5e2" source={require('./assets/rectangle77399fd7a1.png')} style={styles.chooseTopic_rectangle77399fd7a1} />
+        <Text data-layer="6b6a13e1-acd7-49a7-a7bf-84e20ad0c709" style={styles.chooseTopic_overallTopic77f1fa97}>Overall Topic</Text>
+        <Text data-layer="148aa76b-9a36-4740-b4a4-bdae416a1646" style={styles.chooseTopic_xConcepts43b97e7d}>_ Concepts</Text>
+        <ReactImage data-layer="5c64cf18-3459-44a1-b5d8-38a9187117c4" source={require('./assets/rectangle76.png')} style={styles.chooseTopic_rectangle76} />
+        <ReactImage data-layer="c520fcb8-96c8-4247-8927-65d976d990dd" source={require('./assets/rectangle77.png')} style={styles.chooseTopic_rectangle77} />
+        <Text data-layer="cca59fd7-2943-4457-8de9-ecc5a1707f30" style={styles.chooseTopic_overallTopic}>Overall Topic</Text>
+        <Text data-layer="b29e5ec1-623e-4098-a1a7-b8b1b649cc25" style={styles.chooseTopic_xConcepts}>_ Concepts</Text>
     </ScrollView>
     );
   }
 }
 
-TiersScreen.propTypes = {
+ChooseTopic.propTypes = {
 
 }
 
-TiersScreen.defaultProps = {
+ChooseTopic.defaultProps = {
 
 }
 
 
 const styles = StyleSheet.create({
-  "tiersScreen": {
+  "chooseTopic": {
     "opacity": 1,
     "position": "relative",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -192,7 +190,124 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_rectangle5": {
+  "chooseTopic_rectangle71": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 0,
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 0,
+    "width": 375,
+    "height": 493,
+    "left": 0,
+    "top": 57
+  },
+  "chooseTopic_rectangle70": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 40,
+    "borderTopRightRadius": 40,
+    "borderBottomLeftRadius": 40,
+    "borderBottomRightRadius": 40,
+    "width": 375,
+    "height": 513,
+    "left": 0,
+    "top": 200
+  },
+  "chooseTopic_rectangle768b7ad9f3": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 350,
+    "height": 86,
+    "left": 13,
+    "top": 664
+  },
+  "chooseTopic_rectangle77f6eee995": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 70,
+    "height": 74,
+    "left": 19,
+    "top": 670
+  },
+  "chooseTopic_overallTopic9b31e6f7": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 22,
+    "fontWeight": "700",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 136,
+    "height": 39,
+    "left": 106,
+    "top": 665.5
+  },
+  "chooseTopic_xConcepts1955919f": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 15,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 79,
+    "height": 38,
+    "left": 106,
+    "top": 699.5
+  },
+  "chooseTopic_rectangle5": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(230, 230, 230, 1)",
@@ -213,7 +328,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_statusBar1f28c5bc": {
+  "chooseTopic_statusBara8119b8b": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -230,7 +345,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_statusBar1f28c5bc_frame8dd744ea": {
+  "chooseTopic_statusBara8119b8b_frame65fe6072": {
     "opacity": 0.0010436499724164605,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -251,7 +366,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar": {
+  "chooseTopic_statusBara8119b8b_statusBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -268,7 +383,7 @@ const styles = StyleSheet.create({
     "left": 21,
     "top": 13
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_battery": {
+  "chooseTopic_statusBara8119b8b_statusBar_battery": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -285,7 +400,7 @@ const styles = StyleSheet.create({
     "left": 315.67,
     "top": 3.33
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_battery_border": {
+  "chooseTopic_statusBara8119b8b_statusBar_battery_border": {
     "opacity": 0.3499999940395355,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -314,7 +429,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_battery_cap": {
+  "chooseTopic_statusBara8119b8b_statusBar_battery_cap": {
     "opacity": 0.4000000059604645,
     "position": "absolute",
     "marginTop": 0,
@@ -330,7 +445,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 2.67
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_battery_capacity": {
+  "chooseTopic_statusBara8119b8b_statusBar_battery_capacity": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(0, 0, 0, 1)",
@@ -359,7 +474,7 @@ const styles = StyleSheet.create({
     "left": 1.5,
     "top": 1.5
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_wifi": {
+  "chooseTopic_statusBara8119b8b_statusBar_wifi": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -375,7 +490,7 @@ const styles = StyleSheet.create({
     "left": 294.34,
     "top": 2.33
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_cellularConnection": {
+  "chooseTopic_statusBara8119b8b_statusBar_cellularConnection": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -391,7 +506,7 @@ const styles = StyleSheet.create({
     "left": 272.34,
     "top": 2.67
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_timeStyle": {
+  "chooseTopic_statusBara8119b8b_statusBar_timeStyle": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -408,7 +523,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_statusBar1f28c5bc_statusBar_timeStyle_time": {
+  "chooseTopic_statusBara8119b8b_statusBar_timeStyle_time": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -431,7 +546,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_displayShape": {
+  "chooseTopic_displayShape": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -447,70 +562,7 @@ const styles = StyleSheet.create({
     "left": -0.5,
     "top": -0.5
   },
-  "tiersScreen_group9": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 104,
-    "height": 63,
-    "left": 13,
-    "top": 73
-  },
-  "tiersScreen_group9_awardsaca39447": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 29,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 104,
-    "height": 34,
-    "left": 0,
-    "top": 29
-  },
-  "tiersScreen_group9_xBackfcecf12d": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 16,
-    "fontWeight": "300",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 49,
-    "height": 18,
-    "left": 0,
-    "top": 0
-  },
-  "tiersScreen_tabBar": {
+  "chooseTopic_tabBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -524,10 +576,10 @@ const styles = StyleSheet.create({
     "paddingLeft": 0,
     "width": 375,
     "height": 83,
-    "left": 1,
+    "left": -1,
     "top": 729
   },
-  "tiersScreen_tabBar_background249ba380": {
+  "chooseTopic_tabBar_backgroundf6091ae4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -544,7 +596,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_background249ba380_background": {
+  "chooseTopic_tabBar_backgroundf6091ae4_background": {
     "opacity": 0.9985939860343933,
     "position": "absolute",
     "marginTop": 0,
@@ -560,7 +612,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab4": {
+  "chooseTopic_tabBar_tab4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -577,7 +629,7 @@ const styles = StyleSheet.create({
     "left": 280,
     "top": 0
   },
-  "tiersScreen_tabBar_tab4_frame54a57192": {
+  "chooseTopic_tabBar_tab4_frame037541aa": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -606,7 +658,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab4_group524359c5": {
+  "chooseTopic_tabBar_tab4_group744eb35d": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -623,7 +675,7 @@ const styles = StyleSheet.create({
     "left": 23,
     "top": 3
   },
-  "tiersScreen_tabBar_tab4_group524359c5_glyphf97e52ba": {
+  "chooseTopic_tabBar_tab4_group744eb35d_glyph8e1372af": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -640,7 +692,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab4_group524359c5_glyphf97e52ba_frameeabc0c09": {
+  "chooseTopic_tabBar_tab4_group744eb35d_glyph8e1372af_frame0d8f9719": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -669,7 +721,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab4_group524359c5_glyphf97e52ba_symbol2536a647": {
+  "chooseTopic_tabBar_tab4_group744eb35d_glyph8e1372af_symbol072c03da": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -693,7 +745,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "tiersScreen_tabBar_tab4_group524359c5_settings": {
+  "chooseTopic_tabBar_tab4_group744eb35d_settings": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -717,7 +769,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "tiersScreen_tabBar_tab3": {
+  "chooseTopic_tabBar_tab3": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -734,7 +786,7 @@ const styles = StyleSheet.create({
     "left": 188,
     "top": 0
   },
-  "tiersScreen_tabBar_tab3_frameb1480cbe": {
+  "chooseTopic_tabBar_tab3_frameeaaa00ae": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -763,7 +815,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab3_groupa4f1e54c": {
+  "chooseTopic_tabBar_tab3_group7ad1f729": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -780,7 +832,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 3
   },
-  "tiersScreen_tabBar_tab3_groupa4f1e54c_glyph5383005b": {
+  "chooseTopic_tabBar_tab3_group7ad1f729_glyph63c60976": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -797,7 +849,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab3_groupa4f1e54c_glyph5383005b_frame59eb1970": {
+  "chooseTopic_tabBar_tab3_group7ad1f729_glyph63c60976_frame9dfbb38b": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -826,7 +878,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab3_groupa4f1e54c_glyph5383005b_symbole3587c82": {
+  "chooseTopic_tabBar_tab3_group7ad1f729_glyph63c60976_symbol4e143408": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -850,7 +902,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "tiersScreen_tabBar_tab3_groupa4f1e54c_favorites": {
+  "chooseTopic_tabBar_tab3_group7ad1f729_favorites": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -874,7 +926,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "tiersScreen_tabBar_tab2": {
+  "chooseTopic_tabBar_tab2": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -891,7 +943,7 @@ const styles = StyleSheet.create({
     "left": 95,
     "top": 0
   },
-  "tiersScreen_tabBar_tab2_frame7df30878": {
+  "chooseTopic_tabBar_tab2_frame37711fb8": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -920,7 +972,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab2_group9d2c6316": {
+  "chooseTopic_tabBar_tab2_groupdf980f4f": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -937,7 +989,7 @@ const styles = StyleSheet.create({
     "left": 18,
     "top": 3
   },
-  "tiersScreen_tabBar_tab2_group9d2c6316_glyph7de8d98e": {
+  "chooseTopic_tabBar_tab2_groupdf980f4f_glyph11f2a5f8": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -954,7 +1006,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab2_group9d2c6316_glyph7de8d98e_frame8c59f448": {
+  "chooseTopic_tabBar_tab2_groupdf980f4f_glyph11f2a5f8_frameb932defe": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -983,7 +1035,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab2_group9d2c6316_glyph7de8d98e_symbol4fe31cd8": {
+  "chooseTopic_tabBar_tab2_groupdf980f4f_glyph11f2a5f8_symbolc81ebdb3": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1007,7 +1059,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "tiersScreen_tabBar_tab2_group9d2c6316_awards": {
+  "chooseTopic_tabBar_tab2_groupdf980f4f_awards": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1031,7 +1083,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "tiersScreen_tabBar_tab1": {
+  "chooseTopic_tabBar_tab1": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1048,7 +1100,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab1_frameb7fc9ee6": {
+  "chooseTopic_tabBar_tab1_frame410a60ae": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1077,7 +1129,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab1_group": {
+  "chooseTopic_tabBar_tab1_group": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1094,7 +1146,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 3
   },
-  "tiersScreen_tabBar_tab1_group_glyph": {
+  "chooseTopic_tabBar_tab1_group_glyph": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1111,7 +1163,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab1_group_glyph_frame85e8f990": {
+  "chooseTopic_tabBar_tab1_group_glyph_frame3823c6d4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1140,7 +1192,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_tabBar_tab1_group_glyph_symbol": {
+  "chooseTopic_tabBar_tab1_group_glyph_symbol": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1164,7 +1216,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "tiersScreen_tabBar_tab1_group_home": {
+  "chooseTopic_tabBar_tab1_group_home": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1188,7 +1240,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "tiersScreen_homeIndicator3050ef88": {
+  "chooseTopic_homeIndicator7d36b29d": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1202,10 +1254,10 @@ const styles = StyleSheet.create({
     "paddingLeft": 0,
     "width": 375,
     "height": 34,
-    "left": 0,
+    "left": -2,
     "top": 778
   },
-  "tiersScreen_homeIndicator3050ef88_frame": {
+  "chooseTopic_homeIndicator7d36b29d_frame": {
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
     "marginTop": 0,
@@ -1225,7 +1277,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "tiersScreen_homeIndicator3050ef88_homeIndicator": {
+  "chooseTopic_homeIndicator7d36b29d_homeIndicator": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(0, 0, 0, 1)",
@@ -1246,10 +1298,17 @@ const styles = StyleSheet.create({
     "left": 121,
     "top": 21
   },
-  "tiersScreen_group56": {
+  "chooseTopic_theLowerPrimarySyllabus": {
     "opacity": 1,
     "position": "absolute",
-    "backgroundColor": "transparent",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 19,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
@@ -1258,49 +1317,12 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 375,
-    "height": 647,
-    "left": 0,
-    "top": 57
+    "width": 250,
+    "height": 39,
+    "left": 24,
+    "top": 122
   },
-  "tiersScreen_group56_rectangle79": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 0,
-    "borderTopRightRadius": 0,
-    "borderBottomLeftRadius": 0,
-    "borderBottomRightRadius": 0,
-    "width": 375,
-    "height": 493,
-    "left": 0,
-    "top": 0
-  },
-  "tiersScreen_group56_rectangle80": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 40,
-    "borderTopRightRadius": 40,
-    "borderBottomLeftRadius": 40,
-    "borderBottomRightRadius": 40,
-    "width": 375,
-    "height": 494,
-    "left": 0,
-    "top": 153
-  },
-  "tiersScreen_tiers": {
+  "chooseTopic_lowerPrimary": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1319,104 +1341,49 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 71,
+    "width": 209,
     "height": 41,
-    "left": 22,
-    "top": 100.5
+    "left": 24,
+    "top": 80.5
   },
-  "tiersScreen_xBack": {
+  "chooseTopic_rectangle76ffc8b8da": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 350,
+    "height": 86,
+    "left": 14,
+    "top": 224
+  },
+  "chooseTopic_rectangle77b7cea739": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 70,
+    "height": 74,
+    "left": 20,
+    "top": 230
+  },
+  "chooseTopic_diversity": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 16,
-    "fontWeight": "300",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 49,
-    "height": 18,
-    "left": 22,
-    "top": 78
-  },
-  "tiersScreen_path21": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 359,
-    "height": 130,
-    "left": 8,
-    "top": 157
-  },
-  "tiersScreen_rectangle86": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 21,
-    "borderTopRightRadius": 21,
-    "borderBottomLeftRadius": 21,
-    "borderBottomRightRadius": 21,
-    "width": 359,
-    "height": 130,
-    "left": 8,
-    "top": 296
-  },
-  "tiersScreen_rectangle87": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 21,
-    "borderTopRightRadius": 21,
-    "borderBottomLeftRadius": 21,
-    "borderBottomRightRadius": 21,
-    "width": 359,
-    "height": 130,
-    "left": 8,
-    "top": 435
-  },
-  "tiersScreen_rectangle88": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 21,
-    "borderTopRightRadius": 21,
-    "borderBottomLeftRadius": 21,
-    "borderBottomRightRadius": 21,
-    "width": 359,
-    "height": 130,
-    "left": 8,
-    "top": 574
-  },
-  "tiersScreen_bronze": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 25,
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 22,
     "fontWeight": "700",
     "fontStyle": "normal",
     "fontFamily": "Helvetica Neue",
@@ -1430,227 +1397,22 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 84,
+    "width": 91,
     "height": 39,
-    "left": 29,
-    "top": 164
+    "left": 107,
+    "top": 225.5
   },
-  "tiersScreen_silver": {
+  "chooseTopic_xConceptsaaf542d6": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 25,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 66,
-    "height": 39,
-    "left": 29,
-    "top": 303
-  },
-  "tiersScreen_gold": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 25,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 56,
-    "height": 39,
-    "left": 29,
-    "top": 442
-  },
-  "tiersScreen_diamond": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 25,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 107,
-    "height": 39,
-    "left": 29,
-    "top": 581
-  },
-  "tiersScreen_tierRequirement400Points": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 16,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 217,
-    "height": 38,
-    "left": 129,
-    "top": 250
-  },
-  "tiersScreen_tierRequirement1500Points": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 16,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 226,
-    "height": 38,
-    "left": 129,
-    "top": 389
-  },
-  "tiersScreen_tierRequirement5000Points": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 16,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 226,
-    "height": 38,
-    "left": 129,
-    "top": 528
-  },
-  "tiersScreen_tierRequirement10000Points": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 16,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 235,
-    "height": 38,
-    "left": 120,
-    "top": 667
-  },
-  "tiersScreen_group54": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 116,
-    "height": 30,
-    "left": 239,
-    "top": 81
-  },
-  "tiersScreen_group54_rectangle84": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(229, 229, 229, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 11,
-    "borderTopRightRadius": 11,
-    "borderBottomLeftRadius": 11,
-    "borderBottomRightRadius": 11,
-    "width": 116,
-    "height": 30,
-    "left": 0,
-    "top": 0
-  },
-  "tiersScreen_group54_x5238Points": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(137, 136, 136, 1)",
+    "color": "rgba(113, 113, 113, 1)",
     "fontSize": 15,
-    "fontWeight": "700",
+    "fontWeight": "500",
     "fontStyle": "normal",
     "fontFamily": "Helvetica Neue",
     "textAlign": "left",
+    "lineHeight": 35,
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
@@ -1659,9 +1421,249 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 83,
-    "height": 18,
+    "width": 79,
+    "height": 38,
+    "left": 107,
+    "top": 259.5
+  },
+  "chooseTopic_rectangle761b8fdcb9": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 350,
+    "height": 86,
+    "left": 12,
+    "top": 334
+  },
+  "chooseTopic_rectangle776f7a3079": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 70,
+    "height": 74,
     "left": 18,
-    "top": 6
+    "top": 340
+  },
+  "chooseTopic_cycles": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 22,
+    "fontWeight": "700",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 70,
+    "height": 39,
+    "left": 105,
+    "top": 335.5
+  },
+  "chooseTopic_xConceptsf97a7976": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 15,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 79,
+    "height": 38,
+    "left": 105,
+    "top": 369.5
+  },
+  "chooseTopic_rectangle76e56bb666": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 350,
+    "height": 86,
+    "left": 12,
+    "top": 444
+  },
+  "chooseTopic_rectangle77399fd7a1": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 70,
+    "height": 74,
+    "left": 18,
+    "top": 450
+  },
+  "chooseTopic_overallTopic77f1fa97": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 22,
+    "fontWeight": "700",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 136,
+    "height": 39,
+    "left": 105,
+    "top": 445.5
+  },
+  "chooseTopic_xConcepts43b97e7d": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 15,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 79,
+    "height": 38,
+    "left": 105,
+    "top": 479.5
+  },
+  "chooseTopic_rectangle76": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 350,
+    "height": 86,
+    "left": 14,
+    "top": 554
+  },
+  "chooseTopic_rectangle77": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 12,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 12,
+    "borderBottomRightRadius": 12,
+    "width": 70,
+    "height": 74,
+    "left": 20,
+    "top": 560
+  },
+  "chooseTopic_overallTopic": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 22,
+    "fontWeight": "700",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 136,
+    "height": 39,
+    "left": 107,
+    "top": 555.5
+  },
+  "chooseTopic_xConcepts": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(113, 113, 113, 1)",
+    "fontSize": 15,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 79,
+    "height": 38,
+    "left": 107,
+    "top": 589.5
   }
 });

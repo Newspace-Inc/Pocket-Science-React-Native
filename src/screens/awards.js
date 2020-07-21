@@ -7,7 +7,7 @@ import {Path as SvgPath} from 'react-native-svg';
 import {Text as SvgText} from 'react-native-svg';
 import {Image as SvgImage} from 'react-native-svg';
 
-export default class QuizMcq1 extends Component {
+export default class Awards extends Component {
 
   constructor(props) {
       super(props);
@@ -67,137 +67,141 @@ export default class QuizMcq1 extends Component {
   render() {
     
     return (
-    <ScrollView data-layer="f3cb02bc-9ad6-494e-bcc0-09b7c6a85403" style={styles.quizMcq1}>
-        <View data-layer="030322c4-f302-43c4-b60d-0cf0b7bcda7d" style={styles.quizMcq1_rectangle5}></View>
-        <View data-layer="c06d6bf0-d6e5-4061-8ed3-4aa51c721283" style={styles.quizMcq1_statusBar8f18e874}>
-            <View data-layer="3edc3abe-4904-4853-8a1c-d752f7f73021" style={styles.quizMcq1_statusBar8f18e874_frame3f16f674}></View>
-            <View data-layer="5e161486-6554-4bb0-a70b-2a1e69cf77a5" style={styles.quizMcq1_statusBar8f18e874_statusBar}>
-                <View data-layer="87234a88-9c0f-44d8-89fa-c27d350871f6" style={styles.quizMcq1_statusBar8f18e874_statusBar_battery}>
-                    <View data-layer="33316915-9b50-4249-a58d-fd4f114e1096" style={styles.quizMcq1_statusBar8f18e874_statusBar_battery_border}></View>
-                    <Svg data-layer="afdc6c7d-e249-4621-b2de-d64aa9e91531" style={styles.quizMcq1_statusBar8f18e874_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.828125 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
-                    <View data-layer="c24c16c6-dadf-487e-9e13-fcc4fd260ffa" style={styles.quizMcq1_statusBar8f18e874_statusBar_battery_capacity}></View>
+    <ScrollView data-layer="7435dc2b-97fc-445f-b4c6-482245115acb" style={styles.awards}>
+        <View data-layer="e9872450-eabf-4922-9cc8-097b34c27cda" style={styles.awards_rectangle5}></View>
+        <View data-layer="0545446b-d460-48c8-bf42-57673aba0d3c" style={styles.awards_statusBarc97bbd20}>
+            <View data-layer="231d62f7-ec09-4535-8670-0371ff6a5a6e" style={styles.awards_statusBarc97bbd20_frameedcc9e40}></View>
+            <View data-layer="051610e8-c259-4be7-acbf-e4c980807b7f" style={styles.awards_statusBarc97bbd20_statusBar}>
+                <View data-layer="cca19a0f-7c46-4fd8-80c4-16dca8e91d1c" style={styles.awards_statusBarc97bbd20_statusBar_battery}>
+                    <View data-layer="a396bdbd-c0bb-4be2-8c57-aa987cae0f24" style={styles.awards_statusBarc97bbd20_statusBar_battery_border}></View>
+                    <Svg data-layer="2b0364bc-b0b6-448b-ad07-790c9a00c93d" style={styles.awards_statusBarc97bbd20_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.8280029296875 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
+                    <View data-layer="ae093896-5030-4ed6-841e-84c5c993ae4f" style={styles.awards_statusBarc97bbd20_statusBar_battery_capacity}></View>
                 </View>
-                <Svg data-layer="f4d06df8-7a4d-48fb-ad55-225272f17738" style={styles.quizMcq1_statusBar8f18e874_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.83349609375 12.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
-                <Svg data-layer="375ddaca-090d-4675-b3b8-b7f46ceeed14" style={styles.quizMcq1_statusBar8f18e874_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5 12.1669921875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
-                <View data-layer="bf3aa1b5-3fa7-47db-a31a-e8b2f3cdfe84" style={styles.quizMcq1_statusBar8f18e874_statusBar_timeStyle}>
-                    <Text data-layer="27affade-e62d-4a65-974c-d5eb54bcb809" style={styles.quizMcq1_statusBar8f18e874_statusBar_timeStyle_time}>9:41</Text>
+                <Svg data-layer="41de51b7-2c06-4207-93f4-5a8fcfd5e765" style={styles.awards_statusBarc97bbd20_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.8333740234375 12.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
+                <Svg data-layer="a3aa92a0-38ff-444d-a391-b549ee1ac854" style={styles.awards_statusBarc97bbd20_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5001220703125 12.1669921875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
+                <View data-layer="c99bdc2c-fd88-4ab9-a576-24f4649474b5" style={styles.awards_statusBarc97bbd20_statusBar_timeStyle}>
+                    <Text data-layer="e60eda6b-d93e-43c7-abcb-62532bd7da02" style={styles.awards_statusBarc97bbd20_statusBar_timeStyle_time}>9:41</Text>
                 </View>
             </View>
         </View>
-        <View data-layer="89ae3c06-61f7-4ad1-bd19-c508c8f7bce0" style={styles.quizMcq1_tabBar}>
-            <View data-layer="5030eec4-8cb6-4a10-bbe4-98400eb5ef4e" style={styles.quizMcq1_tabBar_background11531de8}>
-                <ReactImage data-layer="061a794f-6aad-4a76-ada2-b8e8c0150ea0" source={require('./assets/background.png')} style={styles.quizMcq1_tabBar_background11531de8_background} />
+        <Text data-layer="c8f4834b-2998-4b20-b099-6fdd355e163a" style={styles.awards_userPoints}>User Points</Text>
+        <View data-layer="bb894351-5cb4-4763-bf18-8f41ed0f88b4" style={styles.awards_tabBar}>
+            <View data-layer="ca68bfdb-dd6b-4e2a-a838-29998c1ad373" style={styles.awards_tabBar_backgroundcff03107}>
+                <ReactImage data-layer="54e29abe-815c-49c2-a6c3-5eb3e4807fc6" source={require('./assets/background.png')} style={styles.awards_tabBar_backgroundcff03107_background} />
             </View>
-            <View data-layer="1fc3852a-7c6b-4169-b06d-e5202858ecf9" style={styles.quizMcq1_tabBar_tab4}>
-                <View data-layer="03991ede-76eb-44af-9c06-37298fe3879c" style={styles.quizMcq1_tabBar_tab4_frame97fca27f}></View>
-                <View data-layer="0f8199ff-4e3e-4ef8-a8fb-79ea73d86262" style={styles.quizMcq1_tabBar_tab4_groupa76f07d9}>
-                    <View data-layer="68762564-bfa0-453e-ad20-8d39154eaf42" style={styles.quizMcq1_tabBar_tab4_groupa76f07d9_glyph8ef70ec1}>
-                        <View data-layer="f839de01-e37d-486e-bdef-1639ae6c3a4a" style={styles.quizMcq1_tabBar_tab4_groupa76f07d9_glyph8ef70ec1_framedce2f63c}></View>
-                        <View style={styles.quizMcq1_tabBar_tab4_groupa76f07d9_glyph8ef70ec1_symbol89c0b899}><Text data-layer="fb2fa04d-6f83-4664-9ca7-28e877e8694f" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
+            <View data-layer="eb8be64a-dc71-495d-8dab-1ecf293f0fdf" style={styles.awards_tabBar_tab4}>
+                <View data-layer="eac3165d-17c6-4981-b4f9-8c5b859248ba" style={styles.awards_tabBar_tab4_framea9197c61}></View>
+                <View data-layer="418811d2-54a2-4f85-8729-ff8bee0f6574" style={styles.awards_tabBar_tab4_group1bde0464}>
+                    <View data-layer="e096e2f2-2a61-41a6-b335-43758bda118b" style={styles.awards_tabBar_tab4_group1bde0464_glyph96dd1b8b}>
+                        <View data-layer="abd4110e-0382-4817-b0b5-2616ca4d54c5" style={styles.awards_tabBar_tab4_group1bde0464_glyph96dd1b8b_frame45c9ce99}></View>
+                        <View style={styles.awards_tabBar_tab4_group1bde0464_glyph96dd1b8b_symbolefeff140}><Text data-layer="85831b51-f65a-4fee-8f01-25ff62fc9ca2" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
                     </View>
-                    <Text data-layer="5579669e-4325-40f6-ac73-b298884be65a" style={styles.quizMcq1_tabBar_tab4_groupa76f07d9_settings}>Settings</Text>
+                    <Text data-layer="b38bd6f3-fa6c-4f6e-998c-b0f0b77a7bf3" style={styles.awards_tabBar_tab4_group1bde0464_settings}>Settings</Text>
                 </View>
             </View>
-            <View data-layer="8c77d014-35d1-4e00-84b2-2bf97d3fe84a" style={styles.quizMcq1_tabBar_tab3}>
-                <View data-layer="f53eca73-6f4b-4cc0-8c07-14f85ada4324" style={styles.quizMcq1_tabBar_tab3_frame3ed4bd2c}></View>
-                <View data-layer="dd253cf8-7a18-42e3-93f0-7d2167cbf25c" style={styles.quizMcq1_tabBar_tab3_group7d4ffb55}>
-                    <View data-layer="5ccdb450-fa3a-4eed-b569-2e9072c318ef" style={styles.quizMcq1_tabBar_tab3_group7d4ffb55_glyphc401b115}>
-                        <View data-layer="596efcae-f8d2-4947-8781-8d0a6a235d71" style={styles.quizMcq1_tabBar_tab3_group7d4ffb55_glyphc401b115_frame2c2b7cab}></View>
-                        <View style={styles.quizMcq1_tabBar_tab3_group7d4ffb55_glyphc401b115_symbol517564a0}><Text data-layer="9b594a64-b4b7-4858-862a-65025b364ea0" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
+            <View data-layer="9d60c858-b509-471f-bddd-11a5a13644f2" style={styles.awards_tabBar_tab3}>
+                <View data-layer="91880dab-a004-4a3f-a214-bb5144abc190" style={styles.awards_tabBar_tab3_frame3a1a67cc}></View>
+                <View data-layer="ff61bd2f-1018-47e2-bde6-679fa947ceaa" style={styles.awards_tabBar_tab3_groupfe54bdf9}>
+                    <View data-layer="f60f0c77-d403-450e-81d2-e82bb75701eb" style={styles.awards_tabBar_tab3_groupfe54bdf9_glyph93c35149}>
+                        <View data-layer="77fda04d-6159-49c4-879a-1ded8402da4b" style={styles.awards_tabBar_tab3_groupfe54bdf9_glyph93c35149_frame12ba5c13}></View>
+                        <View style={styles.awards_tabBar_tab3_groupfe54bdf9_glyph93c35149_symbol556ef8c8}><Text data-layer="d578c25b-3286-4a22-9fcb-38f65cb14fc6" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
                     </View>
-                    <Text data-layer="36f4d6ce-8c02-464d-937c-d1e5c384d1bb" style={styles.quizMcq1_tabBar_tab3_group7d4ffb55_favorites}>Favorites</Text>
+                    <Text data-layer="d641b092-7e2c-436a-b673-2f206a02f9c6" style={styles.awards_tabBar_tab3_groupfe54bdf9_favorites}>Favorites</Text>
                 </View>
             </View>
-            <View data-layer="cf93c893-f526-48b3-91a0-ecba5850813b" style={styles.quizMcq1_tabBar_tab2}>
-                <View data-layer="338d772a-0b9f-4740-a6a4-3ffe10f87d13" style={styles.quizMcq1_tabBar_tab2_frame9c3883db}></View>
-                <View data-layer="fa486777-fa4e-4085-b1db-c878e7c7c7f4" style={styles.quizMcq1_tabBar_tab2_groupd40d2f6a}>
-                    <View data-layer="f1b56ad7-3d8d-4b30-8ab1-3c7b5121ac8c" style={styles.quizMcq1_tabBar_tab2_groupd40d2f6a_glyph200093b3}>
-                        <View data-layer="9a0a8910-d02a-4a8e-8c28-307c719bec78" style={styles.quizMcq1_tabBar_tab2_groupd40d2f6a_glyph200093b3_framee6dca1d8}></View>
-                        <View style={styles.quizMcq1_tabBar_tab2_groupd40d2f6a_glyph200093b3_symbolb93ee98a}><Text data-layer="9bfc1f19-11d6-4a01-b33d-2a629d45d679" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
+            <View data-layer="206db32c-7805-4968-bc60-a83c4e7c9c55" style={styles.awards_tabBar_tab2}>
+                <View data-layer="782939fc-8bd9-4585-8baa-ba6a39bb0f88" style={styles.awards_tabBar_tab2_frame244d1407}></View>
+                <View data-layer="622cc4d6-8861-4bec-bcfa-06b404e0a93e" style={styles.awards_tabBar_tab2_groupcef3aaf8}>
+                    <View data-layer="cc9ff430-5c7f-4b80-9d2c-12e7b111ebb6" style={styles.awards_tabBar_tab2_groupcef3aaf8_glyphd445b815}>
+                        <View data-layer="8f492a74-7f40-42ea-add0-b83a1676cdac" style={styles.awards_tabBar_tab2_groupcef3aaf8_glyphd445b815_framef78ef9c0}></View>
+                        <View style={styles.awards_tabBar_tab2_groupcef3aaf8_glyphd445b815_symbol08f527eb}><Text data-layer="2581bdb7-6526-4196-ac6e-3be999929fee" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
                     </View>
-                    <Text data-layer="5e3ed3a8-9419-4337-a991-900dffd8f855" style={styles.quizMcq1_tabBar_tab2_groupd40d2f6a_awards}>Awards
+                    <Text data-layer="6edbda4c-e067-4dd9-96ad-ddfc07ee7599" style={styles.awards_tabBar_tab2_groupcef3aaf8_awards9ec35561}>Awards
 </Text>
                 </View>
             </View>
-            <View data-layer="2f91aeb1-2d49-4b28-a03c-eedbff61868c" style={styles.quizMcq1_tabBar_tab1}>
-                <View data-layer="19775974-8cb5-4814-ac7e-9908a58416fb" style={styles.quizMcq1_tabBar_tab1_frame8b420ce2}></View>
-                <View data-layer="e74d93b4-cdcb-4e28-828d-d8cd2d933321" style={styles.quizMcq1_tabBar_tab1_group}>
-                    <View data-layer="ebd8ff9f-9be8-495e-87d0-696f7fb18f27" style={styles.quizMcq1_tabBar_tab1_group_glyph}>
-                        <View data-layer="4158f5f9-5b5c-44d8-a62e-a0ee02c31a47" style={styles.quizMcq1_tabBar_tab1_group_glyph_framed9bc1a4b}></View>
-                        <View style={styles.quizMcq1_tabBar_tab1_group_glyph_symbol}><Text data-layer="e596db41-9f16-4d88-9be3-fd265f0a8a5c" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
+            <View data-layer="8cec3ae9-f76a-48c8-8026-1b6a86585f22" style={styles.awards_tabBar_tab1}>
+                <View data-layer="ecec2d2e-24d6-45d4-9412-778c1b176f4b" style={styles.awards_tabBar_tab1_frame448e7ced}></View>
+                <View data-layer="81160b1f-afe7-4f65-bc0e-14a5f318cb93" style={styles.awards_tabBar_tab1_group}>
+                    <View data-layer="00e5ac82-07c9-4e50-bfc7-5cee4a924230" style={styles.awards_tabBar_tab1_group_glyph}>
+                        <View data-layer="b7a89bc9-fbeb-4cb6-8cb6-61f108f151ce" style={styles.awards_tabBar_tab1_group_glyph_frame}></View>
+                        <View style={styles.awards_tabBar_tab1_group_glyph_symbol}><Text data-layer="66120988-f094-4c84-9ea6-cee438fd2dea" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
                     </View>
-                    <Text data-layer="0973862e-35f5-42ea-b526-c8c4ffe2e439" style={styles.quizMcq1_tabBar_tab1_group_home}>Home</Text>
+                    <Text data-layer="5db3facd-42d9-47b4-8ca6-5efbd850434a" style={styles.awards_tabBar_tab1_group_home}>Home</Text>
                 </View>
             </View>
         </View>
-        <View data-layer="f566677b-3368-441f-a953-8a3f68c08952" style={styles.quizMcq1_homeIndicator25863f8c}>
-            <View data-layer="ec0e47ab-770f-47b5-bdc7-273fd032a8b9" style={styles.quizMcq1_homeIndicator25863f8c_frame87ee446b}></View>
-            <View data-layer="89806664-5f6e-451f-9fdc-5a6262620d38" style={styles.quizMcq1_homeIndicator25863f8c_homeIndicator108b72ab}></View>
+        <ReactImage data-layer="91a7e513-c6aa-4e4f-9b8a-3c6b044b2aa4" source={require('./assets/rectangle79.png')} style={styles.awards_rectangle79} />
+        <View data-layer="960e960f-1b70-4485-b771-91547ce019d1" style={styles.awards_rectangle80}></View>
+        <Text data-layer="2abdbc65-76b8-474d-9613-de30e282cf64" style={styles.awards_awards}>Awards</Text>
+        <View data-layer="52293632-f42a-4131-81d4-d291aad84277" style={styles.awards_group52}>
+            <View data-layer="ff06eef6-c00d-4d39-b47d-49eecc021431" style={styles.awards_group52_rectangle824baeac6c}></View>
+            <Text data-layer="935f9a5b-7dbc-4217-92fd-45fc9533f868" style={styles.awards_group52_badges}>Badges</Text>
         </View>
-        <View data-layer="968b08e1-a67e-4b80-8170-cc9f42b57387" style={styles.quizMcq1_homeIndicatoree057567}>
-            <View data-layer="5d86413c-fb79-4eb0-84a0-6710eb9c78e0" style={styles.quizMcq1_homeIndicatoree057567_frame}></View>
-            <View data-layer="160b4431-c9b2-437d-bf26-b8e098417e83" style={styles.quizMcq1_homeIndicatoree057567_homeIndicator}></View>
+        <View data-layer="5da9804d-e5f4-4b74-874a-0d214bdd1db3" style={styles.awards_group53}>
+            <View data-layer="9542140a-0aa4-478d-9c1b-90458737a80c" style={styles.awards_group53_rectangle82}></View>
+            <Text data-layer="072f659f-87e2-4664-b293-8ca0a27795bd" style={styles.awards_group53_tiers}>Tiers</Text>
         </View>
-        <View data-layer="ec1e6cc4-fb6c-4a62-a2c7-302fa46e5a5f" style={styles.quizMcq1_group55}>
-            <ReactImage data-layer="eb7bb0f5-a0d3-42ef-92ab-79f4d3236c87" source={require('./assets/rectangle79.png')} style={styles.quizMcq1_group55_rectangle79} />
-            <View data-layer="fa6946f9-45d1-465e-9fe6-784abea07c3b" style={styles.quizMcq1_group55_rectangle80}></View>
+        <View data-layer="63824573-713e-4355-bc30-cf4194304e96" style={styles.awards_group46}>
+            <ReactImage data-layer="7eb19c62-0e8d-4607-84ea-e0f123ba91b9" source={require('./assets/rectangle18a024b235.png')} style={styles.awards_group46_rectangle18a024b235} />
+            <Text data-layer="b8c5c0f1-afaf-4b5a-b808-5276f5ac6058" style={styles.awards_group46_awardNameeaf46e0c}>Award Name</Text>
+            <Text data-layer="b718c718-6b93-4bca-8e03-31e7335c8d75" style={styles.awards_group46_awardCriteria1c7d3ea2}>Award Criteria</Text>
         </View>
-        <Text data-layer="fcf85b48-3fff-4df8-8ae9-eb6787ad5006" style={styles.quizMcq1_diversityb5fc7061}>Diversity</Text>
-        <Text data-layer="9bf10dea-c6e6-49c4-87af-c3923786804c" style={styles.quizMcq1_topicExplanation}>Topic Explanation</Text>
-        <Text data-layer="7b59b1ea-73e2-4b24-94a1-059a645770f2" style={styles.quizMcq1_subtopics}>Subtopics</Text>
-        <Text data-layer="c2429e22-f337-4fa7-88e1-7e232d95ca46" style={styles.quizMcq1_quiz}>Quiz</Text>
-        <Svg data-layer="fea915a2-30d9-4b34-9176-fc1f95f683f9" style={styles.quizMcq1_line1} preserveAspectRatio="none" viewBox="0 -0.5 104 1" fill="transparent"><SvgPath d="M 104 0 L 0 0"  /></Svg>
-        <Svg data-layer="eff3f5d1-2b8f-4a1a-916c-f0da8a330066" style={styles.quizMcq1_line2} preserveAspectRatio="none" viewBox="0 -0.5 49 1" fill="transparent"><SvgPath d="M 49 0 L 0 0"  /></Svg>
-        <Svg data-layer="40966a87-0f5b-410f-9da2-9e96a6889707" style={styles.quizMcq1_line3} preserveAspectRatio="none" viewBox="0 -0.5 30 1" fill="transparent"><SvgPath d="M 30 0 L 0 0"  /></Svg>
-        <Text data-layer="3457d1c8-9347-427d-9ac2-a4aaf6b20581" style={styles.quizMcq1_diversity}>Diversity</Text>
-        <Text data-layer="ccba7164-254f-4a3d-b92d-8c119d4dd2d7" style={styles.quizMcq1_primarySchoolDiversityCycles}>Primary School Diversity Cycles</Text>
-        <View data-layer="2b318100-b39f-4644-8087-62a6d7ac3a9e" style={styles.quizMcq1_group25}>
-            <View data-layer="635afeea-ad24-409b-a3f0-67ece74b1d6d" style={styles.quizMcq1_group25_rectangle413c5369c6}></View>
-            <Text data-layer="a4f2d3d9-a104-42da-b4f4-fc06fc0deb7f" style={styles.quizMcq1_group25_submit}>Submit</Text>
+        <View data-layer="12bd8cc5-0e45-4b37-b388-3bf6ed893660" style={styles.awards_group51}>
+            <ReactImage data-layer="583489f8-8504-4e88-9966-ccb8f6220c5c" source={require('./assets/rectangle1824e65e3f.png')} style={styles.awards_group51_rectangle1824e65e3f} />
+            <Text data-layer="46c3c9bd-3de1-4518-8dc7-ef7a4b42ee67" style={styles.awards_group51_awardNamed0b05a9e}>Award Name</Text>
+            <Text data-layer="d5e1e80d-89a7-4b22-8c5b-500861dff847" style={styles.awards_group51_awardCriteria7f84f90c}>Award Criteria</Text>
         </View>
-        <View data-layer="966d5ea9-afba-435f-a468-fd9bdd134aad" style={styles.quizMcq1_group74}>
-            <ReactImage data-layer="437a13e2-01d5-4ab5-a518-b72953d97021" source={require('./assets/rectangle41cd9a1299.png')} style={styles.quizMcq1_group74_rectangle41cd9a1299} />
+        <View data-layer="7556c5f0-833e-4b82-b96c-befcbb1bddfe" style={styles.awards_group47}>
+            <ReactImage data-layer="31042f79-6058-4ec2-b741-600c6200c4a4" source={require('./assets/rectangle18cf7055b7.png')} style={styles.awards_group47_rectangle18cf7055b7} />
+            <Text data-layer="00efa68e-053b-4479-8cf2-01de73df8766" style={styles.awards_group47_awardName69f9b2a1}>Award Name</Text>
+            <Text data-layer="491929ac-d80f-40ee-a2db-08fc7f6ade67" style={styles.awards_group47_awardCriteria60eefd05}>Award Criteria</Text>
         </View>
-        <View data-layer="7fe96765-11ae-4a27-86da-a7c13bf0b2c5" style={styles.quizMcq1_group75}>
-            <View data-layer="82d35550-2fe0-46a1-ad3b-1f60dc5259f1" style={styles.quizMcq1_group75_rectangle98b9ca037f}></View>
-            <Text data-layer="84c1cfdd-eb72-4935-8960-9833bfaf5856" style={styles.quizMcq1_group75_option6aee3244}>Option</Text>
+        <View data-layer="55fe6fdc-9d94-40f0-a004-5fbe8e746a4f" style={styles.awards_group50}>
+            <ReactImage data-layer="46365a4b-7819-485c-b59f-a74c57bf6437" source={require('./assets/rectangle18f2a393c3.png')} style={styles.awards_group50_rectangle18f2a393c3} />
+            <Text data-layer="1bc2b400-8c08-46a9-8050-16c57c0f385a" style={styles.awards_group50_awardName03092fb6}>Award Name</Text>
+            <Text data-layer="823a0269-a136-4186-875a-621c7b7c924f" style={styles.awards_group50_awardCriteriaac31cb2b}>Award Criteria</Text>
         </View>
-        <Text data-layer="36772645-5964-479c-834b-57076dfac952" style={styles.quizMcq1_loremIpsum}>Lorem Ipsum
-</Text>
-        <View data-layer="2a965b30-7a72-46bf-9eab-c588c25c008b" style={styles.quizMcq1_group76}>
-            <View data-layer="14e09461-9747-41c6-ab3a-1a5725cbc2ef" style={styles.quizMcq1_group76_rectangle98f4ef93e6}></View>
-            <Text data-layer="d4391706-aef3-44f5-aa9d-903c60bdb2b8" style={styles.quizMcq1_group76_correctAnswer}>Correct answer</Text>
-            <Text data-layer="d8c301d0-74ad-41cc-ab09-8391d835c11f" style={styles.quizMcq1_group76_option975d7d51}>Option</Text>
+        <View data-layer="0b85702c-fe06-4423-9da8-98d86f0dc6cf" style={styles.awards_group48}>
+            <ReactImage data-layer="95c9ae55-f79f-4246-a3c6-38a6266f11f9" source={require('./assets/rectangle18f6e82226.png')} style={styles.awards_group48_rectangle18f6e82226} />
+            <Text data-layer="7fe0ec27-5f37-4116-b853-13672ff7b1d3" style={styles.awards_group48_awardName1aa40805}>Award Name</Text>
+            <Text data-layer="136c9fc6-9c1e-44ed-bf17-dbb7ccff7701" style={styles.awards_group48_awardCriteriab38f890d}>Award Criteria</Text>
         </View>
-        <View data-layer="74e2a6ec-f60a-45ca-9f78-31e8e3e001d5" style={styles.quizMcq1_group77}>
-            <View data-layer="f423ab06-f88d-4af0-83c5-6b0c05b3d996" style={styles.quizMcq1_group77_rectangle98e4968be9}></View>
-            <Text data-layer="c0d70a44-6fe6-4641-a9f8-c57aa4d21199" style={styles.quizMcq1_group77_yourAnswer}>Your answer</Text>
+        <View data-layer="e1718036-b179-4335-afc7-c330894d81e0" style={styles.awards_group49}>
+            <ReactImage data-layer="83958ba6-0590-430e-8d68-3e8ae56878ce" source={require('./assets/rectangle18.png')} style={styles.awards_group49_rectangle18} />
+            <Text data-layer="b4624f71-68d4-43d7-9185-8ad4d49906e8" style={styles.awards_group49_awardName}>Award Name</Text>
+            <Text data-layer="a390de91-bf97-4520-ad2d-ef8e0ba474cf" style={styles.awards_group49_awardCriteria}>Award Criteria</Text>
         </View>
-        <View data-layer="5314c3b1-f6f8-4ecb-82b0-22c58ffa37aa" style={styles.quizMcq1_group78}>
-            <View data-layer="450da6e3-7091-4e71-b62a-d85bab9ed50b" style={styles.quizMcq1_group78_rectangle98}></View>
-            <Text data-layer="fa25a48d-b648-4877-bd30-19d93e9a55a3" style={styles.quizMcq1_group78_option80bce4c9}>Option</Text>
-            <Text data-layer="0378e692-1ae5-442c-89d7-cb9023eb232a" style={styles.quizMcq1_group78_option}>Option</Text>
+        <View data-layer="ef529c16-8999-4626-8d1a-26fee6895797" style={styles.awards_rectangle83}></View>
+        <Svg data-layer="70951fc8-b685-43e3-98d5-cb8992f050f2" style={styles.awards_ellipse1} preserveAspectRatio="none" viewBox="0 0 74 74" fill="transparent"><Defs><Pattern id="img-ellipse1" patternContentUnits="userSpaceOnUse" width="100%" height="100%"><SvgImage xlinkHref={require('./assets/ellipse1.png')} x="0" y="0" width="74.00px" height="74.00px" /></Pattern></Defs><SvgPath d="M 37 0 C 57.43453216552734 0 74 16.56546592712402 74 37 C 74 57.43453216552734 57.43453216552734 74 37 74 C 16.56546592712402 74 0 57.43453216552734 0 37 C 0 16.56546592712402 16.56546592712402 0 37 0 Z" fill="url(#img-ellipse1)" /></Svg>
+        <Svg data-layer="07829e41-7147-41e8-9583-11aec3377b44" style={styles.awards_ellipse2} preserveAspectRatio="none" viewBox="0 0 74 74" fill="transparent"><Defs><Pattern id="img-ellipse2" patternContentUnits="userSpaceOnUse" width="100%" height="100%"><SvgImage xlinkHref={require('./assets/ellipse2.png')} x="0" y="0" width="74.00px" height="74.00px" /></Pattern></Defs><SvgPath d="M 37 0 C 57.43453216552734 0 74 16.56546592712402 74 37 C 74 57.43453216552734 57.43453216552734 74 37 74 C 16.56546592712402 74 0 57.43453216552734 0 37 C 0 16.56546592712402 16.56546592712402 0 37 0 Z" fill="url(#img-ellipse2)" /></Svg>
+        <Svg data-layer="f2a18392-2b45-4c81-97fb-57e32bb7c5b0" style={styles.awards_ellipse3} preserveAspectRatio="none" viewBox="0 0 93 93" fill="rgba(193, 159, 56, 1)"><SvgPath d="M 46.5 0 C 72.18123626708984 0 93 20.81876182556152 93 46.5 C 93 72.18123626708984 72.18123626708984 93 46.5 93 C 20.81876182556152 93 0 72.18123626708984 0 46.5 C 0 20.81876182556152 20.81876182556152 0 46.5 0 Z"  /></Svg>
+        <Svg data-layer="46a33e37-dea3-4ce7-8aee-ffbc74cf4364" style={styles.awards_ellipse4} preserveAspectRatio="none" viewBox="0 0 74 74" fill="transparent"><Defs><Pattern id="img-ellipse4" patternContentUnits="userSpaceOnUse" width="100%" height="100%"><SvgImage xlinkHref={require('./assets/ellipse4.png')} x="0" y="0" width="74.00px" height="74.00px" /></Pattern></Defs><SvgPath d="M 37 0 C 57.43453216552734 0 74 16.56546592712402 74 37 C 74 57.43453216552734 57.43453216552734 74 37 74 C 16.56546592712402 74 0 57.43453216552734 0 37 C 0 16.56546592712402 16.56546592712402 0 37 0 Z" fill="url(#img-ellipse4)" /></Svg>
+        <Text data-layer="a49ad6ff-1262-4346-bd12-8401a0147d4d" style={styles.awards_bronze}>Bronze</Text>
+        <Text data-layer="e82ba9f9-8c9f-422f-a3c4-20cac976a4ff" style={styles.awards_silver}>Silver</Text>
+        <Text data-layer="8f2c2c5d-fcc9-420e-9457-160298eae287" style={styles.awards_diamond}>Diamond</Text>
+        <Text data-layer="9f87fad0-cdda-42ab-a462-c1b28c53b480" style={styles.awards_gold}>Gold</Text>
+        <View data-layer="bba3a2f1-2e66-42c9-b910-59d3bd7e5747" style={styles.awards_group54}>
+            <View data-layer="9b9e7b65-cab6-493c-8196-389e52f1b086" style={styles.awards_group54_rectangle84}></View>
+            <Text data-layer="53c0221c-47b3-4bd0-a6c5-f4b8e00350a9" style={styles.awards_group54_currentRankGold}>Current Rank: Gold</Text>
         </View>
-        <View data-layer="b2a08f8d-3e5f-4248-bdfd-e66f96485ad6" style={styles.quizMcq1_group72}>
-            <ReactImage data-layer="3684677b-3eeb-4dfd-a3c5-8502b09fa551" source={require('./assets/rectangle41.png')} style={styles.quizMcq1_group72_rectangle41} />
-        </View>
-        <Text data-layer="0a6f3889-bb2b-4406-85a5-3736899e1b22" style={styles.quizMcq1_x1x}>1/x</Text>
+        <Text data-layer="e6b5ac60-f065-4d29-aae7-99393f40c37c" style={styles.awards_seeTiers}>See Tiers ></Text>
     </ScrollView>
     );
   }
 }
 
-QuizMcq1.propTypes = {
+Awards.propTypes = {
 
 }
 
-QuizMcq1.defaultProps = {
+Awards.defaultProps = {
 
 }
 
 
 const styles = StyleSheet.create({
-  "quizMcq1": {
+  "awards": {
     "opacity": 1,
     "position": "relative",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -214,7 +218,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_rectangle5": {
+  "awards_rectangle5": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(230, 230, 230, 1)",
@@ -235,7 +239,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_statusBar8f18e874": {
+  "awards_statusBarc97bbd20": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -252,7 +256,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_statusBar8f18e874_frame3f16f674": {
+  "awards_statusBarc97bbd20_frameedcc9e40": {
     "opacity": 0.0010436499724164605,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -273,7 +277,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_statusBar8f18e874_statusBar": {
+  "awards_statusBarc97bbd20_statusBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -290,7 +294,7 @@ const styles = StyleSheet.create({
     "left": 21,
     "top": 13
   },
-  "quizMcq1_statusBar8f18e874_statusBar_battery": {
+  "awards_statusBarc97bbd20_statusBar_battery": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -307,7 +311,7 @@ const styles = StyleSheet.create({
     "left": 315.67,
     "top": 3.33
   },
-  "quizMcq1_statusBar8f18e874_statusBar_battery_border": {
+  "awards_statusBarc97bbd20_statusBar_battery_border": {
     "opacity": 0.3499999940395355,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -336,7 +340,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_statusBar8f18e874_statusBar_battery_cap": {
+  "awards_statusBarc97bbd20_statusBar_battery_cap": {
     "opacity": 0.4000000059604645,
     "position": "absolute",
     "marginTop": 0,
@@ -352,7 +356,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 2.67
   },
-  "quizMcq1_statusBar8f18e874_statusBar_battery_capacity": {
+  "awards_statusBarc97bbd20_statusBar_battery_capacity": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(0, 0, 0, 1)",
@@ -381,7 +385,7 @@ const styles = StyleSheet.create({
     "left": 1.5,
     "top": 1.5
   },
-  "quizMcq1_statusBar8f18e874_statusBar_wifi": {
+  "awards_statusBarc97bbd20_statusBar_wifi": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -397,7 +401,7 @@ const styles = StyleSheet.create({
     "left": 294.34,
     "top": 2.33
   },
-  "quizMcq1_statusBar8f18e874_statusBar_cellularConnection": {
+  "awards_statusBarc97bbd20_statusBar_cellularConnection": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -413,7 +417,7 @@ const styles = StyleSheet.create({
     "left": 272.34,
     "top": 2.67
   },
-  "quizMcq1_statusBar8f18e874_statusBar_timeStyle": {
+  "awards_statusBarc97bbd20_statusBar_timeStyle": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -430,7 +434,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_statusBar8f18e874_statusBar_timeStyle_time": {
+  "awards_statusBarc97bbd20_statusBar_timeStyle_time": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -453,7 +457,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_displayShape": {
+  "awards_displayShape": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -469,7 +473,30 @@ const styles = StyleSheet.create({
     "left": -0.5,
     "top": -0.5
   },
-  "quizMcq1_tabBar": {
+  "awards_userPoints": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(239, 239, 239, 1)",
+    "fontSize": 13,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 67,
+    "height": 15,
+    "left": 290,
+    "top": 105
+  },
+  "awards_tabBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -483,10 +510,10 @@ const styles = StyleSheet.create({
     "paddingLeft": 0,
     "width": 375,
     "height": 83,
-    "left": -1,
+    "left": 0,
     "top": 729
   },
-  "quizMcq1_tabBar_background11531de8": {
+  "awards_tabBar_backgroundcff03107": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -503,7 +530,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_background11531de8_background": {
+  "awards_tabBar_backgroundcff03107_background": {
     "opacity": 0.9985939860343933,
     "position": "absolute",
     "marginTop": 0,
@@ -519,7 +546,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab4": {
+  "awards_tabBar_tab4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -536,7 +563,7 @@ const styles = StyleSheet.create({
     "left": 280,
     "top": 0
   },
-  "quizMcq1_tabBar_tab4_frame97fca27f": {
+  "awards_tabBar_tab4_framea9197c61": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -565,7 +592,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab4_groupa76f07d9": {
+  "awards_tabBar_tab4_group1bde0464": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -582,7 +609,7 @@ const styles = StyleSheet.create({
     "left": 23,
     "top": 3
   },
-  "quizMcq1_tabBar_tab4_groupa76f07d9_glyph8ef70ec1": {
+  "awards_tabBar_tab4_group1bde0464_glyph96dd1b8b": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -599,7 +626,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab4_groupa76f07d9_glyph8ef70ec1_framedce2f63c": {
+  "awards_tabBar_tab4_group1bde0464_glyph96dd1b8b_frame45c9ce99": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -628,7 +655,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab4_groupa76f07d9_glyph8ef70ec1_symbol89c0b899": {
+  "awards_tabBar_tab4_group1bde0464_glyph96dd1b8b_symbolefeff140": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -652,7 +679,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq1_tabBar_tab4_groupa76f07d9_settings": {
+  "awards_tabBar_tab4_group1bde0464_settings": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -676,7 +703,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq1_tabBar_tab3": {
+  "awards_tabBar_tab3": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -693,7 +720,7 @@ const styles = StyleSheet.create({
     "left": 188,
     "top": 0
   },
-  "quizMcq1_tabBar_tab3_frame3ed4bd2c": {
+  "awards_tabBar_tab3_frame3a1a67cc": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -722,7 +749,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab3_group7d4ffb55": {
+  "awards_tabBar_tab3_groupfe54bdf9": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -739,7 +766,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 3
   },
-  "quizMcq1_tabBar_tab3_group7d4ffb55_glyphc401b115": {
+  "awards_tabBar_tab3_groupfe54bdf9_glyph93c35149": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -756,7 +783,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab3_group7d4ffb55_glyphc401b115_frame2c2b7cab": {
+  "awards_tabBar_tab3_groupfe54bdf9_glyph93c35149_frame12ba5c13": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -785,7 +812,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab3_group7d4ffb55_glyphc401b115_symbol517564a0": {
+  "awards_tabBar_tab3_groupfe54bdf9_glyph93c35149_symbol556ef8c8": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -809,7 +836,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq1_tabBar_tab3_group7d4ffb55_favorites": {
+  "awards_tabBar_tab3_groupfe54bdf9_favorites": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -833,7 +860,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq1_tabBar_tab2": {
+  "awards_tabBar_tab2": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -850,7 +877,7 @@ const styles = StyleSheet.create({
     "left": 95,
     "top": 0
   },
-  "quizMcq1_tabBar_tab2_frame9c3883db": {
+  "awards_tabBar_tab2_frame244d1407": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -879,7 +906,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab2_groupd40d2f6a": {
+  "awards_tabBar_tab2_groupcef3aaf8": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -896,7 +923,7 @@ const styles = StyleSheet.create({
     "left": 18,
     "top": 3
   },
-  "quizMcq1_tabBar_tab2_groupd40d2f6a_glyph200093b3": {
+  "awards_tabBar_tab2_groupcef3aaf8_glyphd445b815": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -913,7 +940,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab2_groupd40d2f6a_glyph200093b3_framee6dca1d8": {
+  "awards_tabBar_tab2_groupcef3aaf8_glyphd445b815_framef78ef9c0": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -942,7 +969,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab2_groupd40d2f6a_glyph200093b3_symbolb93ee98a": {
+  "awards_tabBar_tab2_groupcef3aaf8_glyphd445b815_symbol08f527eb": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -966,7 +993,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq1_tabBar_tab2_groupd40d2f6a_awards": {
+  "awards_tabBar_tab2_groupcef3aaf8_awards9ec35561": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -990,7 +1017,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq1_tabBar_tab1": {
+  "awards_tabBar_tab1": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1007,7 +1034,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab1_frame8b420ce2": {
+  "awards_tabBar_tab1_frame448e7ced": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1036,7 +1063,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab1_group": {
+  "awards_tabBar_tab1_group": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1053,7 +1080,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 3
   },
-  "quizMcq1_tabBar_tab1_group_glyph": {
+  "awards_tabBar_tab1_group_glyph": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1070,7 +1097,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab1_group_glyph_framed9bc1a4b": {
+  "awards_tabBar_tab1_group_glyph_frame": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1099,7 +1126,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq1_tabBar_tab1_group_glyph_symbol": {
+  "awards_tabBar_tab1_group_glyph_symbol": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1123,7 +1150,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq1_tabBar_tab1_group_home": {
+  "awards_tabBar_tab1_group_home": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1147,156 +1174,23 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq1_homeIndicator25863f8c": {
+  "awards_rectangle79": {
     "opacity": 1,
     "position": "absolute",
-    "backgroundColor": "transparent",
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
     "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 375,
-    "height": 34,
-    "left": -2,
-    "top": 778
-  },
-  "quizMcq1_homeIndicator25863f8c_frame87ee446b": {
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
     "borderTopLeftRadius": 0,
     "borderTopRightRadius": 0,
     "borderBottomLeftRadius": 0,
     "borderBottomRightRadius": 0,
     "width": 375,
-    "height": 34,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_homeIndicator25863f8c_homeIndicator108b72ab": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(0, 0, 0, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 100,
-    "borderTopRightRadius": 100,
-    "borderBottomLeftRadius": 100,
-    "borderBottomRightRadius": 100,
-    "width": 134,
-    "height": 5,
-    "left": 121,
-    "top": 21
-  },
-  "quizMcq1_homeIndicatoree057567": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 375,
-    "height": 34,
-    "left": -2,
-    "top": 778
-  },
-  "quizMcq1_homeIndicatoree057567_frame": {
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 0,
-    "borderTopRightRadius": 0,
-    "borderBottomLeftRadius": 0,
-    "borderBottomRightRadius": 0,
-    "width": 375,
-    "height": 34,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_homeIndicatoree057567_homeIndicator": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(0, 0, 0, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 100,
-    "borderTopRightRadius": 100,
-    "borderBottomLeftRadius": 100,
-    "borderBottomRightRadius": 100,
-    "width": 134,
-    "height": 5,
-    "left": 121,
-    "top": 21
-  },
-  "quizMcq1_group55": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 375,
-    "height": 647,
+    "height": 600,
     "left": 0,
     "top": 57
   },
-  "quizMcq1_group55_rectangle79": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 0,
-    "borderTopRightRadius": 0,
-    "borderBottomLeftRadius": 0,
-    "borderBottomRightRadius": 0,
-    "width": 375,
-    "height": 493,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_group55_rectangle80": {
+  "awards_rectangle80": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -1313,11 +1207,11 @@ const styles = StyleSheet.create({
     "borderBottomLeftRadius": 40,
     "borderBottomRightRadius": 40,
     "width": 375,
-    "height": 494,
+    "height": 430,
     "left": 0,
-    "top": 153
+    "top": 274
   },
-  "quizMcq1_diversityb5fc7061": {
+  "awards_awards": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1336,180 +1230,12 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 125,
+    "width": 107,
     "height": 41,
     "left": 24,
     "top": 80.5
   },
-  "quizMcq1_topicExplanation": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(160, 157, 157, 1)",
-    "fontSize": 16,
-    "fontWeight": "500",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 131,
-    "height": 38,
-    "left": 24,
-    "top": 217
-  },
-  "quizMcq1_subtopics": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(160, 157, 157, 1)",
-    "fontSize": 16,
-    "fontWeight": "500",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 75,
-    "height": 38,
-    "left": 190,
-    "top": 217
-  },
-  "quizMcq1_quiz": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(113, 113, 113, 1)",
-    "fontSize": 16,
-    "fontWeight": "500",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 33,
-    "height": 38,
-    "left": 300,
-    "top": 217
-  },
-  "quizMcq1_line1": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 104,
-    "height": 1,
-    "left": 34.5,
-    "top": 252
-  },
-  "quizMcq1_line2": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 49,
-    "height": 1,
-    "left": 204.5,
-    "top": 252
-  },
-  "quizMcq1_line3": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 1,
-    "left": 301.5,
-    "top": 252
-  },
-  "quizMcq1_diversity": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 30,
-    "fontWeight": "700",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 125,
-    "height": 41,
-    "left": 24,
-    "top": 80.5
-  },
-  "quizMcq1_primarySchoolDiversityCycles": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 19,
-    "fontWeight": "500",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 280,
-    "height": 39,
-    "left": 24,
-    "top": 122
-  },
-  "quizMcq1_group25": {
+  "awards_group52": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1521,15 +1247,832 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 79,
-    "height": 36,
-    "left": 257,
-    "top": 682
+    "width": 143,
+    "height": 42,
+    "left": -26,
+    "top": 144
   },
-  "quizMcq1_group25_rectangle413c5369c6": {
+  "awards_group52_rectangle824baeac6c": {
     "opacity": 1,
     "position": "absolute",
-    "backgroundColor": "rgba(144, 205, 183, 1)",
+    "backgroundColor": "rgba(240, 223, 169, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 12,
+    "shadowColor": "rgb(0,  0,  0)",
+    "shadowOpacity": 0.1607843137254902,
+    "shadowOffset": {
+      "width": 0,
+      "height": 3
+    },
+    "shadowRadius": 6,
+    "width": 143,
+    "height": 42,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group52_badges": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(121, 121, 121, 1)",
+    "fontSize": 23,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 81,
+    "height": 39,
+    "left": 45,
+    "top": 4
+  },
+  "awards_group53": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 143,
+    "height": 42,
+    "left": -47,
+    "top": 523
+  },
+  "awards_group53_rectangle82": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(240, 223, 169, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 12,
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 12,
+    "shadowColor": "rgb(0,  0,  0)",
+    "shadowOpacity": 0.1607843137254902,
+    "shadowOffset": {
+      "width": 0,
+      "height": 3
+    },
+    "shadowRadius": 6,
+    "width": 143,
+    "height": 42,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group53_tiers": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(121, 121, 121, 1)",
+    "fontSize": 23,
+    "fontWeight": "500",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 52,
+    "height": 39,
+    "left": 72,
+    "top": 4
+  },
+  "awards_group46": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 100,
+    "height": 134,
+    "left": 17,
+    "top": 208
+  },
+  "awards_group46_rectangle18a024b235": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 100,
+    "height": 100,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group46_awardNameeaf46e0c": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 14,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 81,
+    "height": 16,
+    "left": 10,
+    "top": 103
+  },
+  "awards_group46_awardCriteria1c7d3ea2": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 63,
+    "height": 12,
+    "left": 19,
+    "top": 122
+  },
+  "awards_group51": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 100,
+    "height": 134,
+    "left": 17,
+    "top": 365
+  },
+  "awards_group51_rectangle1824e65e3f": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 100,
+    "height": 100,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group51_awardNamed0b05a9e": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 14,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 81,
+    "height": 16,
+    "left": 10,
+    "top": 103
+  },
+  "awards_group51_awardCriteria7f84f90c": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 63,
+    "height": 12,
+    "left": 19,
+    "top": 122
+  },
+  "awards_group47": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 100,
+    "height": 134,
+    "left": 137,
+    "top": 208
+  },
+  "awards_group47_rectangle18cf7055b7": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 100,
+    "height": 100,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group47_awardName69f9b2a1": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 14,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 81,
+    "height": 16,
+    "left": 10,
+    "top": 103
+  },
+  "awards_group47_awardCriteria60eefd05": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 63,
+    "height": 12,
+    "left": 19,
+    "top": 122
+  },
+  "awards_group50": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 100,
+    "height": 134,
+    "left": 137,
+    "top": 365
+  },
+  "awards_group50_rectangle18f2a393c3": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 100,
+    "height": 100,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group50_awardName03092fb6": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 14,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 81,
+    "height": 16,
+    "left": 10,
+    "top": 103
+  },
+  "awards_group50_awardCriteriaac31cb2b": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 63,
+    "height": 12,
+    "left": 19,
+    "top": 122
+  },
+  "awards_group48": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 100,
+    "height": 134,
+    "left": 257,
+    "top": 208
+  },
+  "awards_group48_rectangle18f6e82226": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 100,
+    "height": 100,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group48_awardName1aa40805": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 14,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 81,
+    "height": 16,
+    "left": 10,
+    "top": 103
+  },
+  "awards_group48_awardCriteriab38f890d": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 63,
+    "height": 12,
+    "left": 19,
+    "top": 122
+  },
+  "awards_group49": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 100,
+    "height": 134,
+    "left": 257,
+    "top": 365
+  },
+  "awards_group49_rectangle18": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 100,
+    "height": 100,
+    "left": 0,
+    "top": 0
+  },
+  "awards_group49_awardName": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 14,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 81,
+    "height": 16,
+    "left": 10,
+    "top": 103
+  },
+  "awards_group49_awardCriteria": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 63,
+    "height": 12,
+    "left": 19,
+    "top": 122
+  },
+  "awards_rectangle83": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(149, 149, 149, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 6,
+    "borderTopRightRadius": 6,
+    "borderBottomLeftRadius": 6,
+    "borderBottomRightRadius": 6,
+    "width": 274,
+    "height": 12,
+    "left": 51,
+    "top": 642
+  },
+  "awards_ellipse1": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "shadowColor": "rgb(0,  0,  0)",
+    "shadowOpacity": 0.1607843137254902,
+    "shadowOffset": {
+      "width": 0,
+      "height": 3
+    },
+    "shadowRadius": 6,
+    "width": 74,
+    "height": 74,
+    "left": 14,
+    "top": 613
+  },
+  "awards_ellipse2": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "shadowColor": "rgb(0,  0,  0)",
+    "shadowOpacity": 0.1607843137254902,
+    "shadowOffset": {
+      "width": 0,
+      "height": 3
+    },
+    "shadowRadius": 6,
+    "width": 74,
+    "height": 74,
+    "left": 105,
+    "top": 613
+  },
+  "awards_ellipse3": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "shadowColor": "rgb(0,  0,  0)",
+    "shadowOpacity": 0.1607843137254902,
+    "shadowOffset": {
+      "width": 0,
+      "height": 3
+    },
+    "shadowRadius": 6,
+    "width": 93,
+    "height": 93,
+    "left": 188,
+    "top": 604
+  },
+  "awards_ellipse4": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "shadowColor": "rgb(0,  0,  0)",
+    "shadowOpacity": 0.1607843137254902,
+    "shadowOffset": {
+      "width": 0,
+      "height": 3
+    },
+    "shadowRadius": 6,
+    "width": 74,
+    "height": 74,
+    "left": 288,
+    "top": 613
+  },
+  "awards_bronze": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 12,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 38,
+    "height": 14,
+    "left": 32,
+    "top": 690
+  },
+  "awards_silver": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 12,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 30,
+    "height": 14,
+    "left": 127,
+    "top": 690
+  },
+  "awards_diamond": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 12,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 48,
+    "height": 14,
+    "left": 301,
+    "top": 690
+  },
+  "awards_gold": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 15,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 32,
+    "height": 17,
+    "left": 219,
+    "top": 701
+  },
+  "awards_group54": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 151,
+    "height": 30,
+    "left": 215,
+    "top": 529
+  },
+  "awards_group54_rectangle84": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(229, 229, 229, 1)",
     "marginTop": 0,
     "marginRight": 0,
     "marginBottom": 0,
@@ -1542,17 +2085,40 @@ const styles = StyleSheet.create({
     "borderTopRightRadius": 11,
     "borderBottomLeftRadius": 11,
     "borderBottomRightRadius": 11,
-    "width": 79,
-    "height": 36,
+    "width": 151,
+    "height": 30,
     "left": 0,
     "top": 0
   },
-  "quizMcq1_group25_submit": {
+  "awards_group54_currentRankGold": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 18,
+    "color": "rgba(137, 136, 136, 1)",
+    "fontSize": 15,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 129,
+    "height": 17,
+    "left": 11,
+    "top": 7
+  },
+  "awards_seeTiers": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(141, 141, 141, 1)",
+    "fontSize": 16,
     "fontWeight": "300",
     "fontStyle": "normal",
     "fontFamily": "Helvetica Neue",
@@ -1565,417 +2131,9 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 55,
-    "height": 21,
-    "left": 11,
-    "top": 7
-  },
-  "quizMcq1_group74": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 126,
-    "left": 5,
-    "top": 307
-  },
-  "quizMcq1_group74_rectangle41cd9a1299": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 11,
-    "borderTopRightRadius": 11,
-    "borderBottomLeftRadius": 11,
-    "borderBottomRightRadius": 11,
-    "width": 358,
-    "height": 126,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_group75": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 48,
-    "left": 5,
-    "top": 441
-  },
-  "quizMcq1_group75_rectangle98b9ca037f": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(143, 152, 146, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_group75_option6aee3244": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "transparent",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": 6.5
-  },
-  "quizMcq1_loremIpsum": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(57, 57, 57, 0.7568627450980392)",
-    "fontSize": 23,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 136,
-    "height": 55,
-    "left": 118,
-    "top": 350
-  },
-  "quizMcq1_group76": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 88,
-    "left": 5,
-    "top": 457
-  },
-  "quizMcq1_group76_rectangle98f4ef93e6": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(143, 152, 146, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 40
-  },
-  "quizMcq1_group76_correctAnswer": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 68,
-    "height": 37,
-    "left": 147,
-    "top": 46.5
-  },
-  "quizMcq1_group76_option975d7d51": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": -11.5
-  },
-  "quizMcq1_group77": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 48,
-    "left": 5,
-    "top": 551
-  },
-  "quizMcq1_group77_rectangle98e4968be9": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(143, 152, 146, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_group77_yourAnswer": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 55,
-    "height": 37,
-    "left": 155,
-    "top": 6.5
-  },
-  "quizMcq1_group78": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 48,
-    "left": 5,
-    "top": 608
-  },
-  "quizMcq1_group78_rectangle98": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(143, 152, 146, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_group78_option80bce4c9": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "transparent",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": 6.5
-  },
-  "quizMcq1_group78_option": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": 6.5
-  },
-  "quizMcq1_group72": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 57,
-    "height": 33,
-    "left": 7,
-    "top": 264
-  },
-  "quizMcq1_group72_rectangle41": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 11,
-    "borderTopRightRadius": 11,
-    "borderBottomLeftRadius": 11,
-    "borderBottomRightRadius": 11,
-    "width": 57,
-    "height": 33,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq1_x1x": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(57, 57, 57, 0.7568627450980392)",
-    "fontSize": 15,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 22,
-    "height": 17,
-    "left": 24,
-    "top": 271
+    "width": 78,
+    "height": 18,
+    "left": 284,
+    "top": 565
   }
 });

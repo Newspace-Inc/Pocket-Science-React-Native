@@ -7,7 +7,7 @@ import {Path as SvgPath} from 'react-native-svg';
 import {Text as SvgText} from 'react-native-svg';
 import {Image as SvgImage} from 'react-native-svg';
 
-export default class QuizMcq2 extends Component {
+export default class Spelling extends Component {
 
   constructor(props) {
       super(props);
@@ -67,137 +67,132 @@ export default class QuizMcq2 extends Component {
   render() {
     
     return (
-    <ScrollView data-layer="fd436f8b-bc15-46fd-9ab8-85ee20abb3a6" style={styles.quizMcq2}>
-        <View data-layer="a7998d71-bcb4-4913-9854-633a7e148df3" style={styles.quizMcq2_rectangle5}></View>
-        <View data-layer="9e633e96-4420-42a3-97d3-263980ab4e24" style={styles.quizMcq2_statusBarebcba4a2}>
-            <View data-layer="bef8ff1f-185a-4b8c-8f1e-d81a590e562a" style={styles.quizMcq2_statusBarebcba4a2_framedcfc8e27}></View>
-            <View data-layer="061ce6b8-be95-477d-869b-df35c70003c0" style={styles.quizMcq2_statusBarebcba4a2_statusBar}>
-                <View data-layer="8346e7a3-68ea-4a0f-9a5f-774372640114" style={styles.quizMcq2_statusBarebcba4a2_statusBar_battery}>
-                    <View data-layer="95732727-f5e4-4704-abdf-a7bb27e7ae73" style={styles.quizMcq2_statusBarebcba4a2_statusBar_battery_border}></View>
-                    <Svg data-layer="6843cb12-dfbb-48b2-af64-6760f7ccb454" style={styles.quizMcq2_statusBarebcba4a2_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.828125 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
-                    <View data-layer="b77c5c86-b415-49d0-ad52-33f2c66613a3" style={styles.quizMcq2_statusBarebcba4a2_statusBar_battery_capacity}></View>
+    <ScrollView data-layer="166c457b-b3bb-4c06-845f-2e6b2e17bc18" style={styles.spelling}>
+        <View data-layer="ebad8920-9d5d-414a-9d1b-ac6755c1d49f" style={styles.spelling_rectangle5}></View>
+        <View data-layer="c429edc6-d267-47c7-b76f-76a988e61ec9" style={styles.spelling_statusBar946fd814}>
+            <View data-layer="4f5961b5-c4fe-4968-887d-913fba1f074d" style={styles.spelling_statusBar946fd814_frame4f3dbede}></View>
+            <View data-layer="8a633985-3e63-4412-8b67-341d61d2bf62" style={styles.spelling_statusBar946fd814_statusBar}>
+                <View data-layer="9a8eeb08-369f-4b25-920b-a4db5ae93cc7" style={styles.spelling_statusBar946fd814_statusBar_battery}>
+                    <View data-layer="2f388e7b-563a-4158-a07f-6a4c60334026" style={styles.spelling_statusBar946fd814_statusBar_battery_border}></View>
+                    <Svg data-layer="2142429a-96f7-48e4-b9f9-639635131056" style={styles.spelling_statusBar946fd814_statusBar_battery_cap} preserveAspectRatio="none" viewBox="-0.75 -0.75 2.828125 5.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 0 0 L 0 4 C 0.8047311305999756 3.661223411560059 1.328037977218628 2.873133182525635 1.328037977218628 2 C 1.328037977218628 1.126866698265076 0.8047311305999756 0.3387765288352966 0 0"  /></Svg>
+                    <View data-layer="90119d2f-715d-495a-98e1-a7e7f8b98887" style={styles.spelling_statusBar946fd814_statusBar_battery_capacity}></View>
                 </View>
-                <Svg data-layer="5c8813bb-6acb-4f44-86a0-2c4714446d72" style={styles.quizMcq2_statusBarebcba4a2_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.83349609375 12.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
-                <Svg data-layer="5383cc2f-25e5-4f2c-b812-d8953c7408dd" style={styles.quizMcq2_statusBarebcba4a2_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5 12.1669921875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
-                <View data-layer="5de55847-df6c-4585-92ab-b0bc44484e18" style={styles.quizMcq2_statusBarebcba4a2_statusBar_timeStyle}>
-                    <Text data-layer="628125a0-b364-4155-961e-10acf5e7ac69" style={styles.quizMcq2_statusBarebcba4a2_statusBar_timeStyle_time}>9:41</Text>
+                <Svg data-layer="4d13138b-f021-4625-8662-f39a19633ea8" style={styles.spelling_statusBar946fd814_statusBar_wifi} preserveAspectRatio="none" viewBox="-0.75 -0.75 16.83349609375 12.5" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 7.667118072509766 10.99980068206787 C 7.583868026733398 10.99980068206787 7.502848148345947 10.96601009368896 7.444818019866943 10.90710067749023 L 5.438717842102051 8.884799957275391 C 5.37655782699585 8.824450492858887 5.342437744140625 8.740139961242676 5.345118045806885 8.653500556945801 C 5.346918106079102 8.567130088806152 5.384637832641602 8.48445987701416 5.448617935180664 8.426700592041016 C 6.068027973175049 7.903049945831299 6.855897903442383 7.61467981338501 7.667118072509766 7.61467981338501 C 8.478347778320312 7.61467981338501 9.266218185424805 7.903059959411621 9.885618209838867 8.426700592041016 C 9.949607849121094 8.48445987701416 9.98731803894043 8.567120552062988 9.989117622375488 8.653500556945801 C 9.990918159484863 8.740429878234863 9.956467628479004 8.824740409851074 9.894618034362793 8.884799957275391 L 7.889418125152588 10.90710067749023 C 7.831387996673584 10.96601009368896 7.750368118286133 10.99980068206787 7.667118072509766 10.99980068206787 Z M 11.18971824645996 7.451099872589111 C 11.10976791381836 7.451099872589111 11.03336811065674 7.420739650726318 10.97461795806885 7.365599632263184 C 10.06604766845703 6.544379711151123 8.891417503356934 6.092099666595459 7.667118072509766 6.092099666595459 C 6.443657875061035 6.092999935150146 5.269988059997559 6.545269966125488 4.36231803894043 7.365599632263184 C 4.303567886352539 7.420729637145996 4.227168083190918 7.451099872589111 4.147217750549316 7.451099872589111 C 4.064228057861328 7.451099872589111 3.986237764358521 7.418819904327393 3.927617788314819 7.360199928283691 L 2.768417596817017 6.189300060272217 C 2.706577777862549 6.127449989318848 2.673017740249634 6.045629978179932 2.673917770385742 5.958899974822998 C 2.674807786941528 5.871150016784668 2.709967613220215 5.789649963378906 2.772917747497559 5.729399681091309 C 4.106788158416748 4.489140033721924 5.845237731933594 3.806100130081177 7.668017864227295 3.806100130081177 C 9.490477561950684 3.806100130081177 11.229248046875 4.489140033721924 12.56401824951172 5.729399681091309 C 12.62696838378906 5.790549755096436 12.66212749481201 5.872049808502197 12.66301822662354 5.958899974822998 C 12.66391754150391 6.045629978179932 12.63035774230957 6.127449989318848 12.56851768493652 6.189300060272217 L 11.40931797027588 7.360199928283691 C 11.35068798065186 7.418819904327393 11.27270793914795 7.451099872589111 11.18971824645996 7.451099872589111 Z M 13.85911750793457 4.758299827575684 C 13.77818775177002 4.758299827575684 13.70179748535156 4.726979732513428 13.64401817321777 4.67009973526001 C 12.02446746826172 3.131530046463013 9.901827812194824 2.284200191497803 7.667118072509766 2.284200191497803 C 5.431828022003174 2.284200191497803 3.308867692947388 3.131530046463013 1.68931782245636 4.670109748840332 C 1.631547808647156 4.726969718933105 1.555147767066956 4.758299827575684 1.474217772483826 4.758299827575684 C 1.390907764434814 4.758299827575684 1.312917828559875 4.725699901580811 1.254617810249329 4.666500091552734 L 0.09361779689788818 3.496500015258789 C 0.03235779702663422 3.434340000152588 -0.0008822033414617181 3.352830171585083 1.779667218215764e-05 3.267000198364258 C 0.0009177966858260334 3.180460214614868 0.03511779755353928 3.099590063095093 0.09631779789924622 3.039300203323364 C 2.143527746200562 1.079370021820068 4.832218170166016 0 7.667118072509766 0 C 10.50233840942383 0 13.19070816040039 1.079380035400391 15.23701763153076 3.039300203323364 C 15.2982177734375 3.099590063095093 15.33241748809814 3.180460214614868 15.33331775665283 3.267000198364258 C 15.33421802520752 3.352830171585083 15.30097770690918 3.434340000152588 15.23971748352051 3.496500015258789 L 14.0787181854248 4.666500091552734 C 14.02041816711426 4.725699901580811 13.94242763519287 4.758299827575684 13.85911750793457 4.758299827575684 Z"  /></Svg>
+                <Svg data-layer="cee1380a-315f-4f08-83b6-811dc659d164" style={styles.spelling_statusBar946fd814_statusBar_cellularConnection} preserveAspectRatio="none" viewBox="-0.75 -0.7499999293327448 18.5 12.1669921875" fill="rgba(0, 0, 0, 1)"><SvgPath d="M 16.00020027160645 10.6668004989624 L 15.00029945373535 10.6668004989624 C 14.44894981384277 10.6668004989624 14.00039958953857 10.2182502746582 14.00039958953857 9.666900634765625 L 14.00039958953857 0.9999000430107117 C 14.00039958953857 0.4485500752925873 14.44894981384277 7.066725515869621e-08 15.00029945373535 7.066725515869621e-08 L 16.00020027160645 7.066725515869621e-08 C 16.55154991149902 7.066725515869621e-08 17.00010108947754 0.4485500752925873 17.00010108947754 0.9999000430107117 L 17.00010108947754 9.666900634765625 C 17.00010108947754 10.2182502746582 16.55154991149902 10.6668004989624 16.00020027160645 10.6668004989624 Z M 11.33369922637939 10.6668004989624 L 10.33290004730225 10.6668004989624 C 9.781549453735352 10.6668004989624 9.332999229431152 10.2182502746582 9.332999229431152 9.666900634765625 L 9.332999229431152 3.333600044250488 C 9.332999229431152 2.782249927520752 9.781549453735352 2.333699941635132 10.33290004730225 2.333699941635132 L 11.33369922637939 2.333699941635132 C 11.88504981994629 2.333699941635132 12.33360004425049 2.782249927520752 12.33360004425049 3.333600044250488 L 12.33360004425049 9.666900634765625 C 12.33360004425049 10.2182502746582 11.88504981994629 10.6668004989624 11.33369922637939 10.6668004989624 Z M 6.666300296783447 10.6668004989624 L 5.666399955749512 10.6668004989624 C 5.115049839019775 10.6668004989624 4.666500091552734 10.2182502746582 4.666500091552734 9.666900634765625 L 4.666500091552734 5.66640043258667 C 4.666500091552734 5.115050315856934 5.115049839019775 4.666500091552734 5.666399955749512 4.666500091552734 L 6.666300296783447 4.666500091552734 C 7.218140125274658 4.666500091552734 7.667099952697754 5.115050315856934 7.667099952697754 5.66640043258667 L 7.667099952697754 9.666900634765625 C 7.667099952697754 10.2182502746582 7.218140125274658 10.6668004989624 6.666300296783447 10.6668004989624 Z M 1.999799966812134 10.6668004989624 L 0.9998999834060669 10.6668004989624 C 0.4485500156879425 10.6668004989624 0 10.2182502746582 0 9.666900634765625 L 0 7.667100429534912 C 0 7.115260124206543 0.4485500156879425 6.666300296783447 0.9998999834060669 6.666300296783447 L 1.999799966812134 6.666300296783447 C 2.55115008354187 6.666300296783447 2.99970006942749 7.115260124206543 2.99970006942749 7.667100429534912 L 2.99970006942749 9.666900634765625 C 2.99970006942749 10.2182502746582 2.55115008354187 10.6668004989624 1.999799966812134 10.6668004989624 Z"  /></Svg>
+                <View data-layer="3f823da2-0788-4c50-b0d8-5295f9d8389f" style={styles.spelling_statusBar946fd814_statusBar_timeStyle}>
+                    <Text data-layer="9ead45cc-c9b2-4ff3-a687-9898f2088723" style={styles.spelling_statusBar946fd814_statusBar_timeStyle_time}>9:41</Text>
                 </View>
             </View>
         </View>
-        <View data-layer="cffeeadf-0a03-45bd-b5b2-696f71d1744e" style={styles.quizMcq2_tabBar}>
-            <View data-layer="b23b7f35-a9de-457f-acdb-8d54bea28bb1" style={styles.quizMcq2_tabBar_background96fb1dc7}>
-                <ReactImage data-layer="2cfeaa88-85a1-404a-b769-0210977ea8d8" source={require('./assets/background.png')} style={styles.quizMcq2_tabBar_background96fb1dc7_background} />
+        <View data-layer="006e6dea-9d32-46de-b0af-aa5607d5506f" style={styles.spelling_tabBar}>
+            <View data-layer="aec730dd-d6e9-4330-848f-897ad501a981" style={styles.spelling_tabBar_backgroundfa10e25e}>
+                <ReactImage data-layer="cbdfedf8-e170-4503-821f-ed0685b3a2ee" source={require('./assets/background.png')} style={styles.spelling_tabBar_backgroundfa10e25e_background} />
             </View>
-            <View data-layer="24630a1f-ebec-4a4c-abf8-f7b9dd972b07" style={styles.quizMcq2_tabBar_tab4}>
-                <View data-layer="b5001992-1ee2-4e1e-b619-9fb0595d8516" style={styles.quizMcq2_tabBar_tab4_frame9ed3f504}></View>
-                <View data-layer="a286aaf6-52ec-4124-9086-345a75f1223c" style={styles.quizMcq2_tabBar_tab4_group49e3af6a}>
-                    <View data-layer="9c2cb9f7-fe7a-4ba3-a16c-ee99bb12d1ad" style={styles.quizMcq2_tabBar_tab4_group49e3af6a_glyph8cf30dc9}>
-                        <View data-layer="8d82f14c-06bd-4e52-97a7-f65d14517cad" style={styles.quizMcq2_tabBar_tab4_group49e3af6a_glyph8cf30dc9_frame1cd0ff5f}></View>
-                        <View style={styles.quizMcq2_tabBar_tab4_group49e3af6a_glyph8cf30dc9_symbold803cfb8}><Text data-layer="d8e2eb56-c955-4d0c-9b0a-a63de6575f46" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
+            <View data-layer="00165fdc-2212-4693-bf60-d6655c395630" style={styles.spelling_tabBar_tab4}>
+                <View data-layer="3c2c25ec-3d9c-41fd-bcf0-0186c791c384" style={styles.spelling_tabBar_tab4_frame79b1850c}></View>
+                <View data-layer="85cfb7a2-046d-45c2-b2ef-5d48f5f5dc80" style={styles.spelling_tabBar_tab4_group069b7ae0}>
+                    <View data-layer="7efe44cc-7fc1-47ae-bd20-4642a0582ff5" style={styles.spelling_tabBar_tab4_group069b7ae0_glyphcd0ea79d}>
+                        <View data-layer="d3b3a5dc-fb68-4734-8b2e-23ee60dce501" style={styles.spelling_tabBar_tab4_group069b7ae0_glyphcd0ea79d_frame7ad939b3}></View>
+                        <View style={styles.spelling_tabBar_tab4_group069b7ae0_glyphcd0ea79d_symbole446dbb6}><Text data-layer="3f42069c-e096-4b36-ab07-d1d38b45153e" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀁁</Text></View>
                     </View>
-                    <Text data-layer="8722889b-6720-475b-a9b8-b352a3ab2af1" style={styles.quizMcq2_tabBar_tab4_group49e3af6a_settings}>Settings</Text>
+                    <Text data-layer="81b7d652-cd1a-41e5-842e-c7b615cfc904" style={styles.spelling_tabBar_tab4_group069b7ae0_settings}>Settings</Text>
                 </View>
             </View>
-            <View data-layer="61422c02-8ba3-4fa7-98a5-a83578eabeee" style={styles.quizMcq2_tabBar_tab3}>
-                <View data-layer="950aa014-22c5-449f-8b54-ea70c34f983a" style={styles.quizMcq2_tabBar_tab3_frame37610db4}></View>
-                <View data-layer="7300aed1-8cd7-4a09-8c14-a0ca5200dc2b" style={styles.quizMcq2_tabBar_tab3_group86284647}>
-                    <View data-layer="ab6ec827-6fcc-488d-b401-dc98d9d373fa" style={styles.quizMcq2_tabBar_tab3_group86284647_glypheec66759}>
-                        <View data-layer="628eef96-3f3b-44fb-910c-3f2e7b31afd7" style={styles.quizMcq2_tabBar_tab3_group86284647_glypheec66759_frame58e3b43b}></View>
-                        <View style={styles.quizMcq2_tabBar_tab3_group86284647_glypheec66759_symbolaa5a6233}><Text data-layer="e6eb855b-29a8-4bc1-887a-d8e2755a0132" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
+            <View data-layer="7b031949-d6cd-4bcf-ad9d-7a7db2b10896" style={styles.spelling_tabBar_tab3}>
+                <View data-layer="29b49ae7-75ae-4b85-b815-e448e17cbe9e" style={styles.spelling_tabBar_tab3_frame7e9353f7}></View>
+                <View data-layer="b2a9fb31-78c1-45a3-ad2c-e714a97cb672" style={styles.spelling_tabBar_tab3_group17073891}>
+                    <View data-layer="afba5333-c231-413d-89c2-9aac2734afb7" style={styles.spelling_tabBar_tab3_group17073891_glyphf65cf21c}>
+                        <View data-layer="3c86ff39-d4e9-456f-aad9-d60a6a71169c" style={styles.spelling_tabBar_tab3_group17073891_glyphf65cf21c_frame9850f0d4}></View>
+                        <View style={styles.spelling_tabBar_tab3_group17073891_glyphf65cf21c_symbol4476109a}><Text data-layer="94abe831-03b3-4366-b27b-3649b4e36189" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀿</Text></View>
                     </View>
-                    <Text data-layer="71484e27-f2dd-4fd9-84fe-61b4785d3c65" style={styles.quizMcq2_tabBar_tab3_group86284647_favorites}>Favorites</Text>
+                    <Text data-layer="92e4d276-158d-43da-884f-4150c53ae8a4" style={styles.spelling_tabBar_tab3_group17073891_favorites}>Favorites</Text>
                 </View>
             </View>
-            <View data-layer="10a6678e-108f-4d1e-9a81-e87007fffd30" style={styles.quizMcq2_tabBar_tab2}>
-                <View data-layer="6758ebe1-cca0-4167-9506-e460c29cf31e" style={styles.quizMcq2_tabBar_tab2_frame41ad3c1e}></View>
-                <View data-layer="6cf9494b-0a1f-47da-8713-2877367b849e" style={styles.quizMcq2_tabBar_tab2_groupe3a87c12}>
-                    <View data-layer="a0922fc0-7ce0-4c74-a5c6-e4ba1c555759" style={styles.quizMcq2_tabBar_tab2_groupe3a87c12_glyph02553edf}>
-                        <View data-layer="c27ddbe7-6bdb-4d0e-8316-3c98d75173f7" style={styles.quizMcq2_tabBar_tab2_groupe3a87c12_glyph02553edf_frame059261f7}></View>
-                        <View style={styles.quizMcq2_tabBar_tab2_groupe3a87c12_glyph02553edf_symbolb34a1dba}><Text data-layer="12956a4d-2d4b-4254-8242-75d4c561747f" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
+            <View data-layer="7416e265-06ae-4cff-bc86-ca92b97d5777" style={styles.spelling_tabBar_tab2}>
+                <View data-layer="2ba31b5d-61e7-48a4-8913-c45cecfc8d2c" style={styles.spelling_tabBar_tab2_frame33bc58b4}></View>
+                <View data-layer="12b39e7f-dddd-4681-8216-31ea0a882480" style={styles.spelling_tabBar_tab2_group82be0e45}>
+                    <View data-layer="1310af31-aa35-4ff1-91c7-1331220b15a3" style={styles.spelling_tabBar_tab2_group82be0e45_glyph698df253}>
+                        <View data-layer="544bd759-53cb-4db8-ad46-9bc3a3198e8a" style={styles.spelling_tabBar_tab2_group82be0e45_glyph698df253_frame85110b32}></View>
+                        <View style={styles.spelling_tabBar_tab2_group82be0e45_glyph698df253_symbole46571b0}><Text data-layer="fe2fa04f-bb8f-4189-9bd2-d956f8f5c121" style={{"marginTop":-5,"color":"rgba(153, 153, 153, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀽</Text></View>
                     </View>
-                    <Text data-layer="14cddd5e-7054-4223-a80a-df8ad6ac0fb9" style={styles.quizMcq2_tabBar_tab2_groupe3a87c12_awards}>Awards
+                    <Text data-layer="99444bb4-1fe4-46af-a6d2-0232a55580ba" style={styles.spelling_tabBar_tab2_group82be0e45_awards}>Awards
 </Text>
                 </View>
             </View>
-            <View data-layer="82ebbd49-fd89-4b26-8f63-69c33db8a048" style={styles.quizMcq2_tabBar_tab1}>
-                <View data-layer="5a60c9d9-adda-4e5a-859b-aadc02bc3fb4" style={styles.quizMcq2_tabBar_tab1_frameba9111d8}></View>
-                <View data-layer="7f2a00d2-6d01-466e-a9bc-925cf3f7be8a" style={styles.quizMcq2_tabBar_tab1_group}>
-                    <View data-layer="fc1e4ba8-ab91-48b7-ab90-a5a6496ac91d" style={styles.quizMcq2_tabBar_tab1_group_glyph}>
-                        <View data-layer="61436521-35f9-4c8c-ac47-4018e3efd18c" style={styles.quizMcq2_tabBar_tab1_group_glyph_framed6f88330}></View>
-                        <View style={styles.quizMcq2_tabBar_tab1_group_glyph_symbol}><Text data-layer="716f4766-e928-4b4f-b315-12f1a7fce8eb" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
+            <View data-layer="0a0a4bf3-b76b-413b-91fa-a23aad449be4" style={styles.spelling_tabBar_tab1}>
+                <View data-layer="a1ecedb3-d85d-4ded-aabb-726333d5ef8a" style={styles.spelling_tabBar_tab1_frameb63bf12c}></View>
+                <View data-layer="9d97ed24-94d5-4611-85dc-f1c53e1f6473" style={styles.spelling_tabBar_tab1_group}>
+                    <View data-layer="8acf01a3-836e-4df9-b06d-cba776398676" style={styles.spelling_tabBar_tab1_group_glyph}>
+                        <View data-layer="c8cd56ac-5ae2-421a-8f50-6e61d6c652d5" style={styles.spelling_tabBar_tab1_group_glyph_frame2f1809cd}></View>
+                        <View style={styles.spelling_tabBar_tab1_group_glyph_symbol}><Text data-layer="0d353b0d-799c-43e3-b97a-3953a43b6889" style={{"marginTop":-5,"color":"rgba(0, 122, 255, 1)","fontSize":22,"fontWeight":"400","fontStyle":"normal","fontFamily":"SF Pro Text","textAlign":"center","lineHeight":24.200000000000003}}>􀀻</Text></View>
                     </View>
-                    <Text data-layer="56555608-aede-4479-8927-e08de1e61fd0" style={styles.quizMcq2_tabBar_tab1_group_home}>Home</Text>
+                    <Text data-layer="c7a3e4b2-5589-49b1-a1e0-f32fe7093d0c" style={styles.spelling_tabBar_tab1_group_home}>Home</Text>
                 </View>
             </View>
         </View>
-        <View data-layer="bb014b50-7675-446c-9be2-2b2f50cc4312" style={styles.quizMcq2_homeIndicator349ce966}>
-            <View data-layer="3f3c3ad4-502e-4ae8-8fcf-3353bd5d3fb8" style={styles.quizMcq2_homeIndicator349ce966_frame2ee1c0d9}></View>
-            <View data-layer="10dc93d4-4258-4cc2-b39c-d4ee786eefeb" style={styles.quizMcq2_homeIndicator349ce966_homeIndicatora382e33e}></View>
+        <View data-layer="a1ada734-03ec-44fb-aff8-ce3cb82aa231" style={styles.spelling_homeIndicatoradd518dc}>
+            <View data-layer="5831939d-bdc2-4b1d-8001-f2e84025918e" style={styles.spelling_homeIndicatoradd518dc_frame3631b213}></View>
+            <View data-layer="6a305d79-fc03-4f60-9593-128ce5d6f5bb" style={styles.spelling_homeIndicatoradd518dc_homeIndicatoree0c897d}></View>
         </View>
-        <View data-layer="5e162ef1-3137-48e4-86a3-bf418eb441f2" style={styles.quizMcq2_homeIndicator02983b4a}>
-            <View data-layer="6c4bec05-d4e5-4bc9-bcfd-ab91828a3568" style={styles.quizMcq2_homeIndicator02983b4a_frame}></View>
-            <View data-layer="c2c68352-8d47-4df7-a84f-4e0ebaa9daf9" style={styles.quizMcq2_homeIndicator02983b4a_homeIndicator}></View>
+        <View data-layer="f45ac30b-013e-43d2-98ca-a956c16b062b" style={styles.spelling_homeIndicator5bebcb38}>
+            <View data-layer="b1a6e7f7-dcec-4589-b8f0-73b30c668f7b" style={styles.spelling_homeIndicator5bebcb38_frame}></View>
+            <View data-layer="33133dfe-79cf-4071-b9fd-a082ddcde256" style={styles.spelling_homeIndicator5bebcb38_homeIndicator}></View>
         </View>
-        <View data-layer="2ee3bd0d-3a52-42cd-b975-c8041635bdc7" style={styles.quizMcq2_group55}>
-            <ReactImage data-layer="88e093c9-8144-4aea-a8c4-13dd96df7a93" source={require('./assets/rectangle79.png')} style={styles.quizMcq2_group55_rectangle79} />
-            <View data-layer="bf8db796-aa1e-4c18-820f-a468161de745" style={styles.quizMcq2_group55_rectangle80}></View>
+        <View data-layer="ec4724b2-3b29-48bb-bfe9-42089668c8b1" style={styles.spelling_group61}>
+            <View data-layer="cb312a07-c338-4230-97ac-19e10e7be4bd" style={styles.spelling_group61_group55}>
+                <ReactImage data-layer="62045486-dfb0-4bb9-b8ed-ac2c63e0bd0f" source={require('./assets/rectangle79.png')} style={styles.spelling_group61_group55_rectangle79} />
+                <View data-layer="96251f40-fc1b-4dec-b75a-6904344d00de" style={styles.spelling_group61_group55_rectangle80}></View>
+            </View>
         </View>
-        <Text data-layer="79300d08-de0e-4e0d-a413-d06d52b5441f" style={styles.quizMcq2_diversity36f9039d}>Diversity</Text>
-        <Text data-layer="5b78e416-0e94-4921-9326-8039c065e6f5" style={styles.quizMcq2_topicExplanation}>Topic Explanation</Text>
-        <Text data-layer="188ebadf-3b28-4a9e-988e-2069f9914fb7" style={styles.quizMcq2_subtopics}>Subtopics</Text>
-        <Text data-layer="37bd7e18-99ec-4c34-800c-8270341b52f8" style={styles.quizMcq2_quiz}>Quiz</Text>
-        <Svg data-layer="f977eef2-a57b-45fa-a9cf-a20cdbcd7aa1" style={styles.quizMcq2_line1} preserveAspectRatio="none" viewBox="0 -0.5 104 1" fill="transparent"><SvgPath d="M 104 0 L 0 0"  /></Svg>
-        <Svg data-layer="2969e9c3-15f0-4f70-bf15-27a3e0af1e8f" style={styles.quizMcq2_line2} preserveAspectRatio="none" viewBox="0 -0.5 49 1" fill="transparent"><SvgPath d="M 49 0 L 0 0"  /></Svg>
-        <Svg data-layer="4a971fe1-7293-45a1-b1b8-7f334b939b5c" style={styles.quizMcq2_line3} preserveAspectRatio="none" viewBox="0 -0.5 30 1" fill="transparent"><SvgPath d="M 30 0 L 0 0"  /></Svg>
-        <Text data-layer="bd7d291b-7e2f-40bd-83cd-fbf8893d9a4a" style={styles.quizMcq2_diversity}>Diversity</Text>
-        <Text data-layer="e60e4495-b36f-48dc-828f-cb367356b976" style={styles.quizMcq2_primarySchoolDiversityCycles}>Primary School Diversity Cycles</Text>
-        <View data-layer="d2069927-ff6a-4590-b23e-e3ef5a96e276" style={styles.quizMcq2_group25}>
-            <View data-layer="5d7554cd-03e0-46f3-a184-907c1a541efc" style={styles.quizMcq2_group25_rectangle410c4bd299}></View>
-            <Text data-layer="aecf23fd-a2e5-4de6-93ed-cf765e7753f4" style={styles.quizMcq2_group25_continue}>Continue</Text>
+        <Text data-layer="9ba4a1a0-5783-4c21-91e9-cb7de7a6e501" style={styles.spelling_diversity08b4838e}>Diversity</Text>
+        <Text data-layer="450cc75c-d13c-48f4-9d3b-72c405377fc0" style={styles.spelling_topicExplanation}>Topic Explanation</Text>
+        <Text data-layer="79eb128f-914a-4870-90fa-49226250aa46" style={styles.spelling_subtopics}>Subtopics</Text>
+        <Text data-layer="ceb29264-a8aa-42e1-8850-87d02763b9fd" style={styles.spelling_quiz}>Quiz</Text>
+        <Svg data-layer="6790dc20-d75d-40ea-bc89-a40180e7c9ed" style={styles.spelling_line1} preserveAspectRatio="none" viewBox="0 -0.5 104 1" fill="transparent"><SvgPath d="M 104 0 L 0 0"  /></Svg>
+        <Svg data-layer="40e867f0-9073-4c5d-9ef4-34380c2c93e9" style={styles.spelling_line2} preserveAspectRatio="none" viewBox="0 -0.5 49 1" fill="transparent"><SvgPath d="M 49 0 L 0 0"  /></Svg>
+        <Svg data-layer="53eb2ef1-4f5f-4268-b8c3-92f79c7936a2" style={styles.spelling_line3} preserveAspectRatio="none" viewBox="0 -0.5 30 1" fill="transparent"><SvgPath d="M 30 0 L 0 0"  /></Svg>
+        <Text data-layer="06b59dbe-9d22-4d2b-bc89-c3c64ce0889b" style={styles.spelling_diversity}>Diversity</Text>
+        <Text data-layer="a261beda-d761-4cfe-aad2-cacc703c78c5" style={styles.spelling_primarySchoolDiversityCycles}>Primary School Diversity Cycles</Text>
+        <View data-layer="4bed5bc1-3431-44cc-b639-090b395f986d" style={styles.spelling_group62}>
+            <ReactImage data-layer="2b62391b-73fa-45f3-bfd8-0f66766ccc63" source={require('./assets/icVolumeUp18px042a256f.png')} style={styles.spelling_group62_icVolumeUp18px042a256f} />
+            <View data-layer="ee4b549a-0816-491e-94f9-322fecb56fc4" style={styles.spelling_group62_rectangle98baa463da}></View>
+            <Text data-layer="fe91e1ff-cc01-45f3-9058-73f79a286639" style={styles.spelling_group62_typeYourAnswerHere06a3e397}>Type your answer here</Text>
         </View>
-        <View data-layer="f28c2cec-eb9b-4cb3-a4bd-91aaed16d9e2" style={styles.quizMcq2_group73}>
-            <ReactImage data-layer="06e1c9f7-01d9-4aad-8365-7ddad5d1d3e5" source={require('./assets/rectangle41115bc0a2.png')} style={styles.quizMcq2_group73_rectangle41115bc0a2} />
+        <View data-layer="a995f8b6-ca4a-48e7-917b-63bbdc878a02" style={styles.spelling_group63}>
+            <ReactImage data-layer="87b8ea5a-7b11-4e16-bb50-dc54b86187ac" source={require('./assets/icVolumeUp18px0476cb3b.png')} style={styles.spelling_group63_icVolumeUp18px0476cb3b} />
+            <View data-layer="ccdd6e68-7d11-441a-96c7-63dfa24d6b18" style={styles.spelling_group63_rectangle98e62440f4}></View>
+            <Text data-layer="8e635bf1-4b7b-4207-a55e-b146cc4cfd9c" style={styles.spelling_group63_typeYourAnswerHeree1b2cde4}>Type your answer here</Text>
         </View>
-        <View data-layer="d33f3e89-7908-42a9-9e9e-cabb5591d145" style={styles.quizMcq2_group72}>
-            <ReactImage data-layer="03bb3f38-f13d-4295-b42b-3b1c322a4faa" source={require('./assets/rectangle41.png')} style={styles.quizMcq2_group72_rectangle41} />
+        <View data-layer="59cbf811-8b4f-4a21-b234-1911fb55caaa" style={styles.spelling_group64}>
+            <ReactImage data-layer="5373f27c-d18c-4fcd-8f91-1c3695c5dc05" source={require('./assets/icVolumeUp18pxb8127a4a.png')} style={styles.spelling_group64_icVolumeUp18pxb8127a4a} />
+            <View data-layer="49945d2e-60aa-4e87-8f57-80ab214a72b1" style={styles.spelling_group64_rectangle98e76b230d}></View>
+            <Text data-layer="46faaf1e-08ba-4ee5-8ebf-bfdb8de810f0" style={styles.spelling_group64_typeYourAnswerHere3d495ad2}>Type your answer here</Text>
         </View>
-        <Text data-layer="df9d0e96-04f0-4035-9a16-d7dbfcc6ea52" style={styles.quizMcq2_x1x}>1/x</Text>
-        <View data-layer="ab54572d-dd01-4e48-a27e-5700271633ee" style={styles.quizMcq2_group62}>
-            <View data-layer="30b09601-a294-4ccf-93bf-7877eec6e413" style={styles.quizMcq2_group62_rectangle98442f1663}></View>
-            <Text data-layer="9dd5ed55-5e67-4a0b-9489-e3e1f548af3f" style={styles.quizMcq2_group62_option50f24bcf}>Option</Text>
+        <View data-layer="bfe8330b-48c9-4c8e-9724-5f37fb7a119b" style={styles.spelling_group65}>
+            <ReactImage data-layer="1a89bfa5-1244-41d3-924c-351fa2f4c5a0" source={require('./assets/icVolumeUp18px.png')} style={styles.spelling_group65_icVolumeUp18px} />
+            <View data-layer="28f64a9d-7961-43bb-9c5a-0738ea9db823" style={styles.spelling_group65_rectangle98}></View>
+            <Text data-layer="e4163f5e-f4b1-4416-85b2-76df962c542f" style={styles.spelling_group65_typeYourAnswerHere}>Type your answer here</Text>
         </View>
-        <Text data-layer="51e8e016-583c-4914-9979-5210e2a348fa" style={styles.quizMcq2_loremIpsum}>Lorem Ipsum
-</Text>
-        <View data-layer="79c99513-8c2c-45d1-b6cf-2e2d408745ba" style={styles.quizMcq2_group63}>
-            <View data-layer="9367e62e-4bd4-42b3-acc8-96e093aab253" style={styles.quizMcq2_group63_rectangle9885f07af9}></View>
-            <Text data-layer="974a814b-ac15-4e9a-a3ef-9e6d8d96f571" style={styles.quizMcq2_group63_correctAnswer}>Correct answer</Text>
-            <Text data-layer="0edd0ca5-e18f-4534-89d3-6ea02223e116" style={styles.quizMcq2_group63_optionc70a6712}>Option</Text>
-        </View>
-        <View data-layer="54fe4394-e6ee-418e-b466-4aed5b64e0d5" style={styles.quizMcq2_group64}>
-            <View data-layer="3ef9a08d-f54a-4e53-91cf-faae1b03f2ca" style={styles.quizMcq2_group64_rectangle98d1836cf1}></View>
-            <Text data-layer="f5b353de-56ae-4fed-aa19-e7431cc16b56" style={styles.quizMcq2_group64_yourAnswer}>Your answer</Text>
-        </View>
-        <View data-layer="a5ecbb86-2260-49c2-8852-11ccfc40b999" style={styles.quizMcq2_group65}>
-            <View data-layer="037bd3c8-2597-4a7c-9058-02794e4f60be" style={styles.quizMcq2_group65_rectangle98}></View>
-            <Text data-layer="b878656e-0860-4020-bb7f-33694f0f345e" style={styles.quizMcq2_group65_optionf9ec0c13}>Option</Text>
-            <Text data-layer="e5defaa7-a600-4bbd-beec-deeaf3bfc890" style={styles.quizMcq2_group65_option}>Option</Text>
+        <View data-layer="77529538-1b0f-4d66-8f55-558b52dcee12" style={styles.spelling_group25}>
+            <View data-layer="af8f0d38-552a-4b24-82dc-d52dcdf318ea" style={styles.spelling_group25_rectangle41}></View>
+            <Text data-layer="aca2fb48-569b-4812-8042-e424f22c9d9f" style={styles.spelling_group25_submit}>Submit</Text>
         </View>
     </ScrollView>
     );
   }
 }
 
-QuizMcq2.propTypes = {
+Spelling.propTypes = {
 
 }
 
-QuizMcq2.defaultProps = {
+Spelling.defaultProps = {
 
 }
 
 
 const styles = StyleSheet.create({
-  "quizMcq2": {
+  "spelling": {
     "opacity": 1,
     "position": "relative",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -214,7 +209,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_rectangle5": {
+  "spelling_rectangle5": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(230, 230, 230, 1)",
@@ -235,7 +230,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_statusBarebcba4a2": {
+  "spelling_statusBar946fd814": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -252,7 +247,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_statusBarebcba4a2_framedcfc8e27": {
+  "spelling_statusBar946fd814_frame4f3dbede": {
     "opacity": 0.0010436499724164605,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -273,7 +268,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_statusBarebcba4a2_statusBar": {
+  "spelling_statusBar946fd814_statusBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -290,7 +285,7 @@ const styles = StyleSheet.create({
     "left": 21,
     "top": 13
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_battery": {
+  "spelling_statusBar946fd814_statusBar_battery": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -307,7 +302,7 @@ const styles = StyleSheet.create({
     "left": 315.67,
     "top": 3.33
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_battery_border": {
+  "spelling_statusBar946fd814_statusBar_battery_border": {
     "opacity": 0.3499999940395355,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -336,7 +331,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_battery_cap": {
+  "spelling_statusBar946fd814_statusBar_battery_cap": {
     "opacity": 0.4000000059604645,
     "position": "absolute",
     "marginTop": 0,
@@ -352,7 +347,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 2.67
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_battery_capacity": {
+  "spelling_statusBar946fd814_statusBar_battery_capacity": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(0, 0, 0, 1)",
@@ -381,7 +376,7 @@ const styles = StyleSheet.create({
     "left": 1.5,
     "top": 1.5
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_wifi": {
+  "spelling_statusBar946fd814_statusBar_wifi": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -397,7 +392,7 @@ const styles = StyleSheet.create({
     "left": 294.34,
     "top": 2.33
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_cellularConnection": {
+  "spelling_statusBar946fd814_statusBar_cellularConnection": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -413,7 +408,7 @@ const styles = StyleSheet.create({
     "left": 272.34,
     "top": 2.67
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_timeStyle": {
+  "spelling_statusBar946fd814_statusBar_timeStyle": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -430,7 +425,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_statusBarebcba4a2_statusBar_timeStyle_time": {
+  "spelling_statusBar946fd814_statusBar_timeStyle_time": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -453,7 +448,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_displayShape": {
+  "spelling_displayShape": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -469,7 +464,7 @@ const styles = StyleSheet.create({
     "left": -0.5,
     "top": -0.5
   },
-  "quizMcq2_tabBar": {
+  "spelling_tabBar": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -486,7 +481,7 @@ const styles = StyleSheet.create({
     "left": -1,
     "top": 729
   },
-  "quizMcq2_tabBar_background96fb1dc7": {
+  "spelling_tabBar_backgroundfa10e25e": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -503,7 +498,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_background96fb1dc7_background": {
+  "spelling_tabBar_backgroundfa10e25e_background": {
     "opacity": 0.9985939860343933,
     "position": "absolute",
     "marginTop": 0,
@@ -519,7 +514,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab4": {
+  "spelling_tabBar_tab4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -536,7 +531,7 @@ const styles = StyleSheet.create({
     "left": 280,
     "top": 0
   },
-  "quizMcq2_tabBar_tab4_frame9ed3f504": {
+  "spelling_tabBar_tab4_frame79b1850c": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -565,7 +560,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab4_group49e3af6a": {
+  "spelling_tabBar_tab4_group069b7ae0": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -582,7 +577,7 @@ const styles = StyleSheet.create({
     "left": 23,
     "top": 3
   },
-  "quizMcq2_tabBar_tab4_group49e3af6a_glyph8cf30dc9": {
+  "spelling_tabBar_tab4_group069b7ae0_glyphcd0ea79d": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -599,7 +594,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab4_group49e3af6a_glyph8cf30dc9_frame1cd0ff5f": {
+  "spelling_tabBar_tab4_group069b7ae0_glyphcd0ea79d_frame7ad939b3": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -628,7 +623,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab4_group49e3af6a_glyph8cf30dc9_symbold803cfb8": {
+  "spelling_tabBar_tab4_group069b7ae0_glyphcd0ea79d_symbole446dbb6": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -652,7 +647,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq2_tabBar_tab4_group49e3af6a_settings": {
+  "spelling_tabBar_tab4_group069b7ae0_settings": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -676,7 +671,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq2_tabBar_tab3": {
+  "spelling_tabBar_tab3": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -693,7 +688,7 @@ const styles = StyleSheet.create({
     "left": 188,
     "top": 0
   },
-  "quizMcq2_tabBar_tab3_frame37610db4": {
+  "spelling_tabBar_tab3_frame7e9353f7": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -722,7 +717,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab3_group86284647": {
+  "spelling_tabBar_tab3_group17073891": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -739,7 +734,7 @@ const styles = StyleSheet.create({
     "left": 22,
     "top": 3
   },
-  "quizMcq2_tabBar_tab3_group86284647_glypheec66759": {
+  "spelling_tabBar_tab3_group17073891_glyphf65cf21c": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -756,7 +751,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab3_group86284647_glypheec66759_frame58e3b43b": {
+  "spelling_tabBar_tab3_group17073891_glyphf65cf21c_frame9850f0d4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -785,7 +780,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab3_group86284647_glypheec66759_symbolaa5a6233": {
+  "spelling_tabBar_tab3_group17073891_glyphf65cf21c_symbol4476109a": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -809,7 +804,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq2_tabBar_tab3_group86284647_favorites": {
+  "spelling_tabBar_tab3_group17073891_favorites": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -833,7 +828,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq2_tabBar_tab2": {
+  "spelling_tabBar_tab2": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -850,7 +845,7 @@ const styles = StyleSheet.create({
     "left": 95,
     "top": 0
   },
-  "quizMcq2_tabBar_tab2_frame41ad3c1e": {
+  "spelling_tabBar_tab2_frame33bc58b4": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -879,7 +874,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab2_groupe3a87c12": {
+  "spelling_tabBar_tab2_group82be0e45": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -896,7 +891,7 @@ const styles = StyleSheet.create({
     "left": 18,
     "top": 3
   },
-  "quizMcq2_tabBar_tab2_groupe3a87c12_glyph02553edf": {
+  "spelling_tabBar_tab2_group82be0e45_glyph698df253": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -913,7 +908,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab2_groupe3a87c12_glyph02553edf_frame059261f7": {
+  "spelling_tabBar_tab2_group82be0e45_glyph698df253_frame85110b32": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -942,7 +937,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab2_groupe3a87c12_glyph02553edf_symbolb34a1dba": {
+  "spelling_tabBar_tab2_group82be0e45_glyph698df253_symbole46571b0": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -966,7 +961,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq2_tabBar_tab2_groupe3a87c12_awards": {
+  "spelling_tabBar_tab2_group82be0e45_awards": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -990,7 +985,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq2_tabBar_tab1": {
+  "spelling_tabBar_tab1": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1007,7 +1002,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab1_frameba9111d8": {
+  "spelling_tabBar_tab1_frameb63bf12c": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1036,7 +1031,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab1_group": {
+  "spelling_tabBar_tab1_group": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1053,7 +1048,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 3
   },
-  "quizMcq2_tabBar_tab1_group_glyph": {
+  "spelling_tabBar_tab1_group_glyph": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1070,7 +1065,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab1_group_glyph_framed6f88330": {
+  "spelling_tabBar_tab1_group_glyph_frame2f1809cd": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1099,7 +1094,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_tabBar_tab1_group_glyph_symbol": {
+  "spelling_tabBar_tab1_group_glyph_symbol": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1123,7 +1118,7 @@ const styles = StyleSheet.create({
     "left": 11,
     "top": 10
   },
-  "quizMcq2_tabBar_tab1_group_home": {
+  "spelling_tabBar_tab1_group_home": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1147,7 +1142,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 32
   },
-  "quizMcq2_homeIndicator349ce966": {
+  "spelling_homeIndicatoradd518dc": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1164,7 +1159,7 @@ const styles = StyleSheet.create({
     "left": -2,
     "top": 778
   },
-  "quizMcq2_homeIndicator349ce966_frame2ee1c0d9": {
+  "spelling_homeIndicatoradd518dc_frame3631b213": {
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
     "marginTop": 0,
@@ -1184,7 +1179,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_homeIndicator349ce966_homeIndicatora382e33e": {
+  "spelling_homeIndicatoradd518dc_homeIndicatoree0c897d": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(0, 0, 0, 1)",
@@ -1205,7 +1200,7 @@ const styles = StyleSheet.create({
     "left": 121,
     "top": 21
   },
-  "quizMcq2_homeIndicator02983b4a": {
+  "spelling_homeIndicator5bebcb38": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1222,7 +1217,7 @@ const styles = StyleSheet.create({
     "left": -2,
     "top": 778
   },
-  "quizMcq2_homeIndicator02983b4a_frame": {
+  "spelling_homeIndicator5bebcb38_frame": {
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
     "marginTop": 0,
@@ -1242,7 +1237,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_homeIndicator02983b4a_homeIndicator": {
+  "spelling_homeIndicator5bebcb38_homeIndicator": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(0, 0, 0, 1)",
@@ -1263,7 +1258,7 @@ const styles = StyleSheet.create({
     "left": 121,
     "top": 21
   },
-  "quizMcq2_group55": {
+  "spelling_group61": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1280,7 +1275,24 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 57
   },
-  "quizMcq2_group55_rectangle79": {
+  "spelling_group61_group55": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 375,
+    "height": 647,
+    "left": 0,
+    "top": 0
+  },
+  "spelling_group61_group55_rectangle79": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -1296,7 +1308,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 0
   },
-  "quizMcq2_group55_rectangle80": {
+  "spelling_group61_group55_rectangle80": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 1)",
@@ -1317,7 +1329,7 @@ const styles = StyleSheet.create({
     "left": 0,
     "top": 153
   },
-  "quizMcq2_diversity36f9039d": {
+  "spelling_diversity08b4838e": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1341,7 +1353,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 80.5
   },
-  "quizMcq2_topicExplanation": {
+  "spelling_topicExplanation": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1365,7 +1377,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 217
   },
-  "quizMcq2_subtopics": {
+  "spelling_subtopics": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1389,7 +1401,7 @@ const styles = StyleSheet.create({
     "left": 190,
     "top": 217
   },
-  "quizMcq2_quiz": {
+  "spelling_quiz": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1413,7 +1425,7 @@ const styles = StyleSheet.create({
     "left": 300,
     "top": 217
   },
-  "quizMcq2_line1": {
+  "spelling_line1": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -1429,7 +1441,7 @@ const styles = StyleSheet.create({
     "left": 34.5,
     "top": 252
   },
-  "quizMcq2_line2": {
+  "spelling_line2": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -1445,7 +1457,7 @@ const styles = StyleSheet.create({
     "left": 204.5,
     "top": 252
   },
-  "quizMcq2_line3": {
+  "spelling_line3": {
     "opacity": 1,
     "position": "absolute",
     "marginTop": 0,
@@ -1461,7 +1473,7 @@ const styles = StyleSheet.create({
     "left": 301.5,
     "top": 252
   },
-  "quizMcq2_diversity": {
+  "spelling_diversity": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1485,7 +1497,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 80.5
   },
-  "quizMcq2_primarySchoolDiversityCycles": {
+  "spelling_primarySchoolDiversityCycles": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1509,7 +1521,7 @@ const styles = StyleSheet.create({
     "left": 24,
     "top": 122
   },
-  "quizMcq2_group25": {
+  "spelling_group62": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "transparent",
@@ -1521,12 +1533,436 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 92,
-    "height": 36,
-    "left": 257,
-    "top": 682
+    "width": 264.51,
+    "height": 48,
+    "left": 55.49,
+    "top": 297
   },
-  "quizMcq2_group25_rectangle410c4bd299": {
+  "spelling_group62_icVolumeUp18px042a256f": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 3.34
+  },
+  "spelling_group62_icVolumeUp18px042a256f_path80e68899a": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 0
+  },
+  "spelling_group62_icVolumeUp18px042a256f_path9271be902": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 39.57,
+    "height": 38.65,
+    "left": 1.28,
+    "top": 1.28
+  },
+  "spelling_group62_rectangle98baa463da": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(193, 193, 193, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 199,
+    "height": 48,
+    "left": 65.51,
+    "top": 0
+  },
+  "spelling_group62_typeYourAnswerHere06a3e397": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 101,
+    "height": 37,
+    "left": 114.51,
+    "top": 6.5
+  },
+  "spelling_group63": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 264.51,
+    "height": 48,
+    "left": 55.49,
+    "top": 381
+  },
+  "spelling_group63_icVolumeUp18px0476cb3b": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 3.34
+  },
+  "spelling_group63_icVolumeUp18px0476cb3b_path875c09e21": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 0
+  },
+  "spelling_group63_icVolumeUp18px0476cb3b_path9bf48b943": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 39.57,
+    "height": 38.65,
+    "left": 1.28,
+    "top": 1.28
+  },
+  "spelling_group63_rectangle98e62440f4": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(193, 193, 193, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 199,
+    "height": 48,
+    "left": 65.51,
+    "top": 0
+  },
+  "spelling_group63_typeYourAnswerHeree1b2cde4": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 101,
+    "height": 37,
+    "left": 114.51,
+    "top": 6.5
+  },
+  "spelling_group64": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 264.51,
+    "height": 48,
+    "left": 55.49,
+    "top": 465
+  },
+  "spelling_group64_icVolumeUp18pxb8127a4a": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 3.34
+  },
+  "spelling_group64_icVolumeUp18pxb8127a4a_path8ce498b1a": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 0
+  },
+  "spelling_group64_icVolumeUp18pxb8127a4a_path93427285a": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 39.57,
+    "height": 38.65,
+    "left": 1.28,
+    "top": 1.28
+  },
+  "spelling_group64_rectangle98e76b230d": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(193, 193, 193, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 199,
+    "height": 48,
+    "left": 65.51,
+    "top": 0
+  },
+  "spelling_group64_typeYourAnswerHere3d495ad2": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 101,
+    "height": 37,
+    "left": 114.51,
+    "top": 6.5
+  },
+  "spelling_group65": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 264.51,
+    "height": 48,
+    "left": 55.49,
+    "top": 549
+  },
+  "spelling_group65_icVolumeUp18px": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 3.34
+  },
+  "spelling_group65_icVolumeUp18px_path8": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 41.8,
+    "height": 41.2,
+    "left": 0,
+    "top": 0
+  },
+  "spelling_group65_icVolumeUp18px_path9": {
+    "opacity": 1,
+    "position": "absolute",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 39.57,
+    "height": 38.65,
+    "left": 1.28,
+    "top": 1.28
+  },
+  "spelling_group65_rectangle98": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(193, 193, 193, 1)",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "borderTopLeftRadius": 14,
+    "borderTopRightRadius": 14,
+    "borderBottomLeftRadius": 14,
+    "borderBottomRightRadius": 14,
+    "width": 199,
+    "height": 48,
+    "left": 65.51,
+    "top": 0
+  },
+  "spelling_group65_typeYourAnswerHere": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "color": "rgba(255, 255, 255, 1)",
+    "fontSize": 10,
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "fontFamily": "Helvetica Neue",
+    "textAlign": "left",
+    "lineHeight": 35,
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 101,
+    "height": 37,
+    "left": 114.51,
+    "top": 6.5
+  },
+  "spelling_group25": {
+    "opacity": 1,
+    "position": "absolute",
+    "backgroundColor": "transparent",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "width": 79,
+    "height": 36,
+    "left": 155,
+    "top": 671
+  },
+  "spelling_group25_rectangle41": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(144, 205, 183, 1)",
@@ -1542,12 +1978,12 @@ const styles = StyleSheet.create({
     "borderTopRightRadius": 11,
     "borderBottomLeftRadius": 11,
     "borderBottomRightRadius": 11,
-    "width": 92,
+    "width": 79,
     "height": 36,
     "left": 0,
     "top": 0
   },
-  "quizMcq2_group25_continue": {
+  "spelling_group25_submit": {
     "opacity": 1,
     "position": "absolute",
     "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -1565,417 +2001,9 @@ const styles = StyleSheet.create({
     "paddingRight": 0,
     "paddingBottom": 0,
     "paddingLeft": 0,
-    "width": 70,
+    "width": 55,
     "height": 21,
     "left": 11,
     "top": 7
-  },
-  "quizMcq2_group73": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 126,
-    "left": 7,
-    "top": 298
-  },
-  "quizMcq2_group73_rectangle41115bc0a2": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 11,
-    "borderTopRightRadius": 11,
-    "borderBottomLeftRadius": 11,
-    "borderBottomRightRadius": 11,
-    "width": 358,
-    "height": 126,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq2_group72": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 57,
-    "height": 33,
-    "left": 7,
-    "top": 264
-  },
-  "quizMcq2_group72_rectangle41": {
-    "opacity": 1,
-    "position": "absolute",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "borderTopLeftRadius": 11,
-    "borderTopRightRadius": 11,
-    "borderBottomLeftRadius": 11,
-    "borderBottomRightRadius": 11,
-    "width": 57,
-    "height": 33,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq2_x1x": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(57, 57, 57, 0.7568627450980392)",
-    "fontSize": 15,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 22,
-    "height": 17,
-    "left": 24,
-    "top": 271
-  },
-  "quizMcq2_group62": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 48,
-    "left": 7,
-    "top": 432
-  },
-  "quizMcq2_group62_rectangle98442f1663": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(143, 152, 146, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq2_group62_option50f24bcf": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "transparent",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": 6.5
-  },
-  "quizMcq2_loremIpsum": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(57, 57, 57, 0.7568627450980392)",
-    "fontSize": 23,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 136,
-    "height": 55,
-    "left": 120,
-    "top": 341
-  },
-  "quizMcq2_group63": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 88,
-    "left": 7,
-    "top": 448
-  },
-  "quizMcq2_group63_rectangle9885f07af9": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(58, 180, 91, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 40
-  },
-  "quizMcq2_group63_correctAnswer": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 68,
-    "height": 37,
-    "left": 147,
-    "top": 46.5
-  },
-  "quizMcq2_group63_optionc70a6712": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": -11.5
-  },
-  "quizMcq2_group64": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 48,
-    "left": 7,
-    "top": 542
-  },
-  "quizMcq2_group64_rectangle98d1836cf1": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(206, 63, 63, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq2_group64_yourAnswer": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 55,
-    "height": 37,
-    "left": 153,
-    "top": 6.5
-  },
-  "quizMcq2_group65": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "transparent",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 358,
-    "height": 48,
-    "left": 7,
-    "top": 599
-  },
-  "quizMcq2_group65_rectangle98": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(143, 152, 146, 1)",
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "borderTopLeftRadius": 14,
-    "borderTopRightRadius": 14,
-    "borderBottomLeftRadius": 14,
-    "borderBottomRightRadius": 14,
-    "width": 358,
-    "height": 48,
-    "left": 0,
-    "top": 0
-  },
-  "quizMcq2_group65_optionf9ec0c13": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "transparent",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "center",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": 6.5
-  },
-  "quizMcq2_group65_option": {
-    "opacity": 1,
-    "position": "absolute",
-    "backgroundColor": "rgba(255, 255, 255, 0)",
-    "color": "rgba(255, 255, 255, 1)",
-    "fontSize": 10,
-    "fontWeight": "400",
-    "fontStyle": "normal",
-    "fontFamily": "Helvetica Neue",
-    "textAlign": "left",
-    "lineHeight": 35,
-    "marginTop": 0,
-    "marginRight": 0,
-    "marginBottom": 0,
-    "marginLeft": 0,
-    "paddingTop": 0,
-    "paddingRight": 0,
-    "paddingBottom": 0,
-    "paddingLeft": 0,
-    "width": 30,
-    "height": 37,
-    "left": 166,
-    "top": 6.5
   }
 });
