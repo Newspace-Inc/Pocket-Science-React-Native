@@ -23,7 +23,7 @@ function HomeScreen({navigation}) {
         <Text style={styles.numberPoints}>Number Points</Text>
         <TouchableOpacity
           onPress={() => navigation.navigate("TopicSelection",{
-            PrimaryType: "Upper Primary"
+            PrimaryType: "Upper Primary" 
           }
           
           )}
